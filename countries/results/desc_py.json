@@ -1,0 +1,106 @@
+{
+  "n_total": 23444,
+  "mean_auto": 0.088315,
+  "median_auto": 0.076079,
+  "share_near_zero_lt0.05": 0.337229,
+  "share_agri_elem_major69": 0.660681,
+  "by_country_mean": {
+    "Ethiopia 2021": 0.143712,
+    "Nigeria 2023": 0.121901,
+    "Tanzania 2020": 0.08326,
+    "Uganda 2019": 0.055279
+  },
+  "by_country_n": {
+    "Ethiopia 2021": 584,
+    "Nigeria 2023": 7708,
+    "Tanzania 2020": 7481,
+    "Uganda 2019": 7671
+  },
+  "by_major_mean": {
+    "1": 0.209931,
+    "2": 0.171647,
+    "3": 0.361334,
+    "4": 0.60455,
+    "5": 0.143036,
+    "6": 0.053698,
+    "7": 0.051028,
+    "8": 0.142974,
+    "9": 0.030194
+  },
+  "by_major_share": {
+    "1": 0.051484,
+    "2": 0.046323,
+    "3": 0.018086,
+    "4": 0.007294,
+    "5": 0.126386,
+    "6": 0.539626,
+    "7": 0.053617,
+    "8": 0.036129,
+    "9": 0.121054
+  },
+  "country_composition": {
+    "Ethiopia 2021": {
+      "n": 584,
+      "pct_female": 38.0,
+      "mean_age": 26.5,
+      "pct_urban": 44.5,
+      "pct_agri": 22.4,
+      "pct_wage": 0.0,
+      "mean_auto": 0.143712
+    },
+    "Nigeria 2023": {
+      "n": 7708,
+      "pct_female": 50.5,
+      "mean_age": 26.0,
+      "pct_urban": 19.0,
+      "pct_agri": 28.4,
+      "pct_wage": 4.0,
+      "mean_auto": 0.121901
+    },
+    "Tanzania 2020": {
+      "n": 7481,
+      "pct_female": 50.5,
+      "mean_age": 39.3,
+      "pct_urban": 3.5,
+      "pct_agri": 77.9,
+      "pct_wage": 2.7,
+      "mean_auto": 0.08326
+    },
+    "Uganda 2019": {
+      "n": 7671,
+      "pct_female": 65.2,
+      "mean_age": 26.6,
+      "pct_urban": 22.4,
+      "pct_agri": 72.8,
+      "pct_wage": 3.9,
+      "mean_auto": 0.055279
+    },
+    "All (pooled)": {
+      "n": 23444,
+      "pct_female": 55.0,
+      "mean_age": 30.5,
+      "pct_urban": 15.8,
+      "pct_agri": 58.6,
+      "pct_wage": 3.5,
+      "mean_auto": 0.088315
+    }
+  },
+  "by_status_mean": {
+    "agriculture": 0.049973,
+    "other_nonag": 0.163271,
+    "selfemp_nonag": 0.141506,
+    "wage_nonag": 0.141703
+  },
+  "by_status_share": {
+    "agriculture": 0.585779,
+    "other_nonag": 0.019323,
+    "selfemp_nonag": 0.360305,
+    "wage_nonag": 0.034593
+  },
+  "mean_urban": 0.095305,
+  "mean_rural": 0.087004,
+  "mean_male": 0.092402,
+  "mean_female": 0.084973,
+  "top10pct_share_of_exposure": 0.363967,
+  "urban_minus_rural": 0.008301
+}

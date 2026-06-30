@@ -1,0 +1,389 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amssymb,amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage[round]{natbib}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true, linkcolor=black, citecolor=black, urlcolor=blue}
+\usepackage{setspace}
+\onehalfspacing
+
+\title{\textbf{Generative-AI Exposure in Sub-Saharan African 
+Labour Markets}}
+\author{Abiodun Adetokunbo\thanks{Augustine University, Lagos, Nigeria. Email:abiodun.adetokunbo@augustineuniversity.edu.ng}}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent This study provides a measurement of occupational exposure
+ to generative AI across workforce of four Sub-Saharan African economies, 
+ using harmonised microdata for 23,444 workers from LSMS-ISA surveys in Nigeria, 
+ Tanzania, Uganda, and Ethiopia. Exposure is 
+ concentrated in a thin layer of the labour force such that the median worker faces 
+ near-zero exposure. Two thirds of workers are in agricultural or elementary
+ occupations whose exposure is below 0.06, and the most exposed tenth of workers
+ accounts for roughly a third of all exposure. The dividing line is sectoral 
+ rather than contractual as agricultural workers, who make up 59 percent of the 
+ pooled workforce, have a mean exposure of 0.05, while non-agricultural wage and 
+ self-employed workers are equally exposed at 0.14, formal and informal wage 
+ workers do not differ. Across countries, in a 
+ sample of 32 African economies, country-level AI exposure falls steeply with 
+ the informal employment rate and the agricultural self-employment share, and 
+ rises with income per capita. This study finds that exposure is not merely lower on 
+ average but structurally confined to a small, urban, white-collar minority.
+
+\vspace{6pt}
+\noindent\textbf{Keywords:} generative AI, occupational exposure, informality, structural transformation, Sub-Saharan Africa, LSMS-ISA.
+
+\noindent\textbf{JEL codes:} J21, J24, O33, O55.
+\end{abstract}
+
+\section{Introduction}
+
+The rapid diffusion of generative AI has prompted a wave of estimates of how exposed 
+jobs are to the new technology \citep{felten2021,eloundou2024,gmyrek2023}. 
+Most of this evidence concerns high-income labour markets, and the cross-country 
+work that does cover developing economies builds occupational exposure from 
+adult-skills surveys such as PIAAC and STEP \citep{pizzinelli2023,cazzaniga2024}. 
+Those instruments, by design, sample the formal and largely urban workforce. 
+They do not represent the subsistence farmers, own-account traders, and casual 
+labourers who make up the majority of employment in low-income Sub-Saharan Africa. 
+As a result, the question of who in these economies is actually exposed, and 
+how exposure is distributed across occupational structure, has not been 
+answered with representative data.
+
+This paper takes a different data source as its starting point. 
+The Living Standards Measurement Study Integrated Surveys on Agriculture (LSMS-ISA) 
+are nationally representative household surveys that record the main-job occupation 
+of every working member, including the agricultural and informal 
+majority \citep{lsmsisa}. The paper assembles the LSMS-ISA wave with coded 
+occupations for four countries, Nigeria (2023), Tanzania (2020), Uganda (2019), 
+and Ethiopia (2021), and map each worker's occupation to a task-level measure of 
+generative-AI exposure through a transparent occupation crosswalk. 
+The pooled sample contains 23,444 workers.
+
+This study is descriptive and its contribution is in three parts. First, it measures 
+the level 
+and distribution of AI exposure across a representative Sub-Saharan workforce and finds 
+exposure is low and highly concentrated such that the pooled mean is 0.088 
+on a zero-to-one automation scale, the median worker is somewhat unexposed, and 
+the most exposed ten percent of workers carry about a third of total exposure. 
+Second, it shows that the concentration is occupational and sectoral rather than 
+contractual. The gap is between agriculture and everything else, not between formal 
+and informal jobs such that agricultural workers average 0.05, while non-agricultural wage 
+employees and own-account workers are both at 0.14, and formality among wage workers 
+makes no difference. Third, it shows that the within-country pattern scales up. 
+In a cross-section of 32 African economies, aggregate exposure falls with the 
+informal employment rate and with agricultural self-employment, and rises with 
+income, such that the four countries observed at the worker level sit on a regional gradient.
+
+These results qualify the view that developing countries are
+less exposed to AI \citep{pizzinelli2023,cazzaniga2024}. Using data that include 
+the informal and agricultural workforce, it finds that exposure in these economies 
+is not simply lower on average but is structurally confined to a small, urban, 
+white-collar minority, with the large agricultural and own-account majority 
+insulated by the nature of their work. This is a measurement and mapping
+contribution as the study do not estimate the effect of AI on
+employment.
+
+\subsection{Related literature}
+
+The paper connects to three strands of work. The first measures the exposure of
+jobs to automation and to AI. The task framework of \citet{autor2003} and
+\citet{acemoglu2019,acemoglu2022} treats an occupation as a bundle of tasks and
+asks which of those tasks a technology can perform. A series of occupation-level
+indices apply this idea, from the early computerisation probabilities of
+\citet{frey2017} to the AI occupational exposure scores of \citet{felten2021} and
+\citet{webb2020} and the large-language-model exposure of \citet{eloundou2024}.
+The exposure measure used here follows this tradition, aggregating task-level
+capability ratings for generative models to occupations \citep{althoff2026}.
+A parallel literature estimates the realised effects of generative AI on
+productivity and on labour demand, mostly in high-income or online settings
+\citep{brynjolfsson2023,noy2023,hui2024}. This paper does not estimate effects but instead maps exposure.
+
+The second strand carries exposure measurement across countries and raises the
+concern that AI may widen gaps between nations \citep{alonso2020}. Cross-country
+estimates consistently find that lower-income economies are less exposed, because
+they employ fewer workers in the professional and clerical occupations that AI
+reaches \citep{pizzinelli2023,cazzaniga2024,gmyrek2023}. These estimates rest on
+adult-skills surveys such as PIAAC and STEP that sample the formal workforce in a
+limited set of countries, so they describe the exposed minority rather than the
+whole labour force. This paper uses household survey data that include the
+agricultural and informal majority, and asks how exposure is distributed once that
+majority is in the sample.
+
+The third strand concerns informality and structural transformation. Informal and
+own-account employment dominates the labour market in low-income economies
+\citep{laporta2014}, and a large share of work remains in low-productivity
+agriculture \citep{gollin2014}. These features are usually studied as obstacles to
+development. Here they appear instead as the reason AI exposure is so concentrated,
+since the agricultural and own-account work that absorbs most of the workforce is
+made up of tasks current models cannot perform.
+
+\section{Data and measurement}
+
+\subsection{Surveys and occupation coding}
+
+The study uses LSMS-ISA wave that records coded occupations for each of 
+four countries, the Nigeria General Household Survey-Panel Wave 5 (2023), 
+the Tanzania National Panel Survey Round 5 (2020), the Uganda National 
+Panel Survey (2019), and the Ethiopia Socioeconomic Panel Survey Wave 5 (2021). 
+Each survey records the main-job occupation of working household members. Nigeria, 
+Tanzania, and Uganda code occupation at the four-digit ISCO-08 level \citep{isco08}; 
+Ethiopia records occupation at the one-digit major-group level. Occupation coverage 
+is complete among workers in Nigeria and Uganda. In Tanzania the labour 
+module codes occupation only for non-farm work, so the study adds subsistence farmers, 
+identified from the agricultural-labour question, at the agricultural occupation 
+level. The Ethiopian sample is smaller and selected, and treats its level with 
+caution and rely on it mainly for the major-group profile.
+
+\subsection{Exposure measure and crosswalk}
+
+The study measures occupational exposure to generative AI with task-level capability 
+ratings that score each O*NET task for whether current generative models can 
+perform it \citep{althoff2026}. Ratings are aggregated to occupations using task 
+weights, yielding an automation-exposure score on a zero-to-one scale for 
+each O*NET-SOC occupation. In order to attach this score to survey workers, 
+the study builds a crosswalk from each survey's occupation classification to O*NET-SOC: 
+ISCO-88 and ISCO-08 to the 2010 Standard Occupational Classification, and then to 
+O*NET-SOC, using the standard correspondence tables. Where one source occupation 
+maps to several O*NET occupations I take the unweighted mean. 
+I also compute exposure from an independent occupation-level automation index and this implies 
+the same cross-occupational ranking, and conclusions concern that 
+ranking rather than the cardinal scale.
+
+\subsection{Harmonised variables}
+
+For each worker, I record sex, age, urban or rural residence, 
+the four-digit occupation and its ISCO major group, and an employment-status 
+category. Status is anchored on the occupation: agricultural workers are 
+identified from ISCO major group 6 together with agricultural elementary 
+occupations, and the remaining workers are split into wage employees and 
+own-account or self-employed workers using each survey's main-job employer question. 
+For wage workers, I additionally construct an informality flag from the presence of 
+a written contract, pension contributions, or income-tax withholding, depending on 
+what each survey records. The resulting pooled file covers 23,444 workers
+(7,708 in Nigeria, 7,481 in Tanzania, 7,671 in Uganda, and 584 in Ethiopia).
+Table~\ref{tab:summary} describes the sample. The four workforces differ in the
+ways the structural account predicts: the agricultural share ranges from 28
+percent in the more urban Nigerian sample to 78 percent in Tanzania, and mean
+exposure moves inversely with it.
+
+\begin{table}[ht]
+\centering
+\caption{Sample composition by country}
+\label{tab:summary}
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+Country & $N$ & \% female & Mean age & \% urban & \% agriculture & Mean exposure \\
+\midrule
+Nigeria 2023  & 7{,}708 & 50.5 & 26.0 & 19.0 & 28.4 & 0.122 \\
+Tanzania 2020 & 7{,}481 & 50.5 & 39.3 & 3.5  & 77.9 & 0.083 \\
+Uganda 2019   & 7{,}671 & 65.2 & 26.6 & 22.4 & 72.8 & 0.055 \\
+Ethiopia 2021 & 584     & 38.0 & 26.5 & 44.5 & 22.4 & 0.144 \\
+\midrule
+All (pooled)  & 23{,}444 & 55.0 & 30.5 & 15.8 & 58.6 & 0.088 \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\begin{minipage}{0.9\linewidth}
+\footnotesize
+Workers with a coded main-job occupation. Mean exposure is the task-weighted
+automation-exposure score on a zero-to-one scale. The agriculture column is the
+share of workers in agricultural occupations.
+\end{minipage}
+\end{table}
+
+\section{The structure of AI exposure}
+
+Generative-AI exposure reaches only a small part 
+of the workforce in the sample. The pooled mean automation-exposure score is 0.088 
+and the median is 0.076. One third of workers (33.7 percent) have near-zero 
+exposure below 0.05, and two thirds (66.1 percent) are in agricultural or 
+elementary occupations. Exposure is also concentrated among the few who have it as 
+the most exposed ten percent of workers account for 36 percent of total exposure 
+in the pooled sample.
+
+Table~\ref{tab:major} reports employment shares and mean exposure 
+for each ISCO major group. The exposure gradient is steep and follows a somewhat 
+white-collar ordering. Clerical, technical, and professional occupations have the 
+highest exposure, with clerical workers at 0.605, but together they are a small 
+share of employment. The two largest groups, skilled 
+agriculture (54 percent of workers) and elementary occupations (12 percent), 
+have the lowest exposure, at 0.054 and 0.030. The combination of a 
+steep occupational gradient and an employment distribution that is heavily 
+weighted toward its low-exposure end is what produces a low and concentrated 
+aggregate.
+
+\begin{table}[ht]
+\centering
+\caption{Employment share and mean AI exposure by ISCO major group 
+(pooled, 23,444 workers)}
+\label{tab:major}
+\begin{tabular}{lrr}
+\toprule
+ISCO major group & Share of workers & Mean exposure \\
+\midrule
+Clerical support             & 0.7\%  & 0.605 \\
+Technicians and associates   & 1.8\%  & 0.361 \\
+Managers                     & 5.1\%  & 0.210 \\
+Professionals                & 4.6\%  & 0.172 \\
+Service and sales            & 12.6\% & 0.143 \\
+Plant and machine operators  & 3.6\%  & 0.143 \\
+Craft and trades             & 5.4\%  & 0.051 \\
+Skilled agriculture          & 54.0\% & 0.054 \\
+Elementary occupations       & 12.1\% & 0.030 \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\begin{minipage}{0.85\linewidth}
+\footnotesize
+Exposure is the task-weighted share of an occupation's tasks that current generative models 
+can perform, on a zero-to-one scale. Shares are of all workers with a coded occupation in 
+the pooled four-country sample.
+\end{minipage}
+\end{table}
+
+Table~\ref{tab:status} reports 
+exposure by employment status. Agricultural workers, who are 58.6 percent of the pooled 
+workforce, have a mean exposure of 0.050. Non-agricultural workers are more exposed, but 
+within the non-agricultural sector, wage employees and own-account workers are exposed to 
+exactly the same degree, both at 0.142. The insulating margin is therefore agriculture versus 
+the rest of the economy.
+
+\begin{table}[ht]
+\centering
+\caption{Employment share and mean AI exposure by employment status (pooled)}
+\label{tab:status}
+\begin{tabular}{lrr}
+\toprule
+Employment status & Share of workers & Mean exposure \\
+\midrule
+Agriculture                       & 58.6\% & 0.050 \\
+Self-employed, non-agriculture    & 36.0\% & 0.142 \\
+Wage employee, non-agriculture    & 3.5\%  & 0.142 \\
+Other non-agriculture             & 1.9\%  & 0.163 \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\begin{minipage}{0.85\linewidth}
+\footnotesize
+Status is anchored on the occupation: 
+agriculture is read from the ISCO major group, and remaining workers are 
+split by the survey's main-job employer question. The ``other'' category 
+is the Ethiopian non-agricultural workers, for whom only the one-digit occupation 
+is available.
+\end{minipage}
+\end{table}
+
+Among non-agricultural wage workers, 
+for whom formality can be measured, informal workers (no written contract, pension, 
+or tax withholding) have a mean exposure of 0.112 and formal workers 0.100. 
+If anything informal wage workers are marginally more exposed, because informal 
+wage work in these economies includes clerical and sales activity that generative 
+models can perform. Geography and sex add little as urban workers average 0.095 
+against 0.087 for rural workers, and men 0.092 against 0.085 for women. 
+The concentration of exposure is occupational, and the occupational structure, 
+not residence or contract type, is what places most workers out of reach of the 
+technology.
+
+\section{From within-country to cross-country}
+ 
+Table~\ref{tab:country} reports, for each of the four micro countries, 
+the mean worker-level exposure measured and an independent country-level 
+measure of AI substitution exposure drawn from a 32-country cross-section of 
+African economies. The worker-level levels are not perfectly comparable across 
+countries, because the Ethiopian occupation code is coarse and its sample selected, 
+which inflates its measured level. The country-level measure, which does not share 
+that selection, places Ethiopia among the least exposed, consistent with its very 
+high agricultural share.
+
+\begin{table}[ht]
+\centering
+\caption{Worker-level and country-level AI exposure, four micro-data countries}
+\label{tab:country}
+\begin{tabular}{lrr}
+\toprule
+Country & Worker-level mean & Country-level exposure \\
+\midrule
+Nigeria 2023   & 0.122 & 0.333 \\
+Ethiopia 2021  & 0.144 & 0.221 \\
+Tanzania 2020  & 0.083 & 0.238 \\
+Uganda 2019    & 0.055 & 0.214 \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\begin{minipage}{0.85\linewidth}
+\footnotesize
+The worker-level mean is the pooled automation-exposure score from the LSMS sample. 
+The country-level measure is an independent index of occupational substitution 
+exposure aggregated to the national level.
+\end{minipage}
+\end{table}
+
+Across the full 32-country cross-section, the same insulation logic that 
+operates within countries operates between them. Country-level AI exposure 
+falls with the informal employment rate (Spearman rank correlation of $-0.74$, 
+28 countries) and with the agricultural self-employment 
+share ($-0.75$, 30 countries), and rises with income per 
+capita ($+0.83$, 31 countries). Figure~\ref{fig:macro} plots exposure against 
+the informal employment rate and marks the four countries observed at the worker 
+level as they lie along the regional gradient. The cross-country relationship is 
+descriptive, but it confirms that the structural feature shown with microdata, 
+the confinement of exposure to a small non-agricultural minority, is what drives 
+the well-known result that poorer and more informal economies appear less exposed.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.8\linewidth]{figures/fig_macro_exposure_informality}
+\caption{Country-level AI exposure against the informal employment rate, 
+32 African economies. The four LSMS micro-data countries are marked.}
+\label{fig:macro}
+\end{figure}
+
+\section{Limitations}
+
+First, the exposure measure is built on 
+US task content and is applied to African occupations through a crosswalk, therefore
+it captures the task composition of an occupation, not local differences in how 
+that occupation is performed, so it is best read as a measure of an occupation's 
+intrinsic exposure rather than of realised local risk. Second, cross-country 
+comparisons of the cardinal level are imperfect. Ethiopian occupation is coded 
+only at the major-group level, and the Tanzanian occupation module originally 
+omitted subsistence farmers, which was added at the agricultural level. 
+The conclusions rest on the occupational gradient and on the pooled distribution, 
+rather than on the precise national means. 
+Third, the analysis is descriptive. The study measures exposure, not impact, and a
+companion comparison of a Nigerian worker panel between 2018 and 2023 shows no
+exposure-related change in employment over a window in which generative AI had
+barely been adopted, so this cross-section is best read as a pre-impact baseline
+rather than as evidence of an effect.
+
+\section{Conclusion}
+
+Using LSMS-ISA microdata that include the agricultural 
+and informal workforce, the study provides a measurement of generative-AI exposure 
+across the occupational structure of four Sub-Saharan African economies.
+Exposure is low, steeply graded across occupations, and concentrated in a small 
+white-collar minority. The agricultural and own-account majority is insulated by 
+the nature of its work rather than by the informality of its contracts. 
+The same structure scales to a 32-country regional gradient in which more 
+informal and more agricultural economies are less exposed. For policy and for 
+measurement, the implication is that aggregate exposure statistics understate how 
+unequally the technology reaches workers in these economies as the gains and risks of 
+generative AI, for now, are confined to the thin formal-sector top of the labour
+market, while the structural transformation that would expose the majority is lagging.
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\end{document}

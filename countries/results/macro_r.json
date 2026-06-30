@@ -1,0 +1,16 @@
+{
+  "n_countries": 32,
+  "spearman_exposed_vs_informal": -0.739839,
+  "pearson_exposed_vs_informal": -0.809694,
+  "n_informal": 28,
+  "spearman_exposed_vs_selfemp_agri": -0.7458,
+  "pearson_exposed_vs_selfemp_agri": -0.793519,
+  "n_selfemp_agri": 30,
+  "spearman_exposed_vs_selfemp": -0.715425,
+  "pearson_exposed_vs_selfemp": -0.799033,
+  "n_selfemp": 32,
+  "spearman_exposed_vs_gdppc": 0.827503,
+  "pearson_exposed_vs_gdppc": 0.858794,
+  "n_gdppc": 31,
+  "exposed_median": 0.241581
+}

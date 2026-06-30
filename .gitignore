@@ -1,0 +1,49 @@
+# ---- Licensed microdata: DO NOT COMMIT (World Bank LSMS-ISA / WBES terms) ----
+*.zip
+*.xml
+/*.pdf
+w4cb.txt
+lsms_probe/
+lsms_isa/
+wbes/
+oli_data/
+countries/ETH_2018_ESS/
+countries/ETH_2021_ESPS-W5/
+countries/TZA_2020_NPS-R5/
+countries/UGA_2019_UNPS/
+
+# ---- Worker-level derived microdata (redistribution-restricted) ----
+countries/harmonized_workers.csv
+countries/exposure_core_3country.csv
+crosswalks/panel_nga_w4w5.csv
+
+# ---- Raw Atlas panels (uncertain license) ----
+atlas_data/*.gz
+atlas_data/countries.csv
+atlas_data/dict.json
+
+# ---- Old/abandoned paper and internal handoff notes ----
+Automation_Exposure_Africa_GenAI_Paper.*
+Online_Appendix.*
+africa_genai_analysis.R
+africa_genai_dataset.csv
+Stale_Automation_Paper_ARCHIVE/
+PROGRESS_NEW_PAPER.md
+DATA_VERIFICATION_REPORT.md
+REPLICATION_README.md
+
+# ---- Local config ----
+.claude/
+
+# ---- Build artifacts ----
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+__pycache__/
+*.pyc
