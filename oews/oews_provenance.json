@@ -1,0 +1,24 @@
+{
+  "oews_national_may2018": {
+    "source": "US Bureau of Labor Statistics, Occupational Employment and Wage Statistics",
+    "listing_page": "https://www.bls.gov/oes/tables.htm",
+    "url": "https://www.bls.gov/oes/special-requests/oesm18nat.zip",
+    "release": "May 2018 national cross-industry estimates",
+    "soc_vintage": "2010 SOC (OEWS used the 2010 SOC through May 2018; May 2019 onward uses the 2018 SOC)",
+    "why_this_year": "matches the SOC-2010 codes in crosswalks/soc10_isco08.dta and the O*NET-SOC 2010 codes in the exposure files",
+    "download_date": "2026-09-19",
+    "http_last_modified": "2026-05-15T13:12:21Z",
+    "zip_sha256": "7ad399c96360c6abd3977574af958d49582f8dd33372b6d433b31669ddeb156c",
+    "zip_n_bytes": 204029,
+    "file_used": "oesm18nat/national_M2018_dl.xlsx",
+    "file_sha256": "9af8b7777512348439a6b20ba4d6543504cbe3d180594402a3a3432d9d5c40a2",
+    "file_n_bytes": 195468,
+    "fields_used": [
+      "OCC_CODE",
+      "OCC_GROUP",
+      "TOT_EMP"
+    ],
+    "note": "bls.gov returns a 1,325-byte 'Access Denied' page to a default curl/urllib user agent; crosswalks/bls2.xls and crosswalks/isco08_to_soc2010.xls are saved copies of that page. A descriptive user agent gets the file.",
+    "local_path": "oews/oesm18nat.zip"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "Nigeria 2023": [
+    {
+      "stage": "all roster respondents (sect1)",
+      "n": 28256,
+      "reason": ""
+    },
+    {
+      "stage": "labour-module rows (sect4a)",
+      "n": 25662,
+      "reason": ""
+    },
+    {
+      "stage": "coded 4-digit occupation, attached exposure",
+      "n": 7708,
+      "reason": ""
+    },
+    {
+      "stage": "final coded rows (pre pool)",
+      "n": 7708,
+      "reason": ""
+    },
+    {
+      "stage": "family-farm-only (s4aq21=2), no occupation asked",
+      "n": 1839,
+      "reason": "own-use farmers, added under Decision 1"
+    },
+    {
+      "stage": "headline total (coded + own-use farmers)",
+      "n": 9547,
+      "reason": ""
+    }
+  ],
+  "Tanzania 2020": [
+    {
+      "stage": "all roster respondents (hh_sec_b)",
+      "n": 23592,
+      "reason": ""
+    },
+    {
+      "stage": "labour-module rows (hh_sec_e1)",
+      "n": 23592,
+      "reason": ""
+    },
+    {
+      "stage": "TASCO-coded rows (hh_e30b_4a in 1000-9999)",
+      "n": 2347,
+      "reason": ""
+    },
+    {
+      "stage": "coded, matched to ISCO-08 exposure",
+      "n": 2208,
+      "reason": ""
+    },
+    {
+      "stage": "coded, TASCO code with no ISCO-08 match, MAPPED",
+      "n": 139,
+      "reason": "19 distinct TASCO codes; see crosswalks/tasco_to_isco08_v2.csv"
+    },
+    {
+      "stage": "non-farm business owner, no wage job, no occupation question, NOT recoverable",
+      "n": 1789,
+      "reason": "coverage gap, item 4; hh_sec_n has industry not occupation"
+    },
+    {
+      "stage": "farm gate (hh_e07=yes), no occupation code -- imputed pool",
+      "n": 5273,
+      "reason": ""
+    },
+    {
+      "stage": "  of which hh_e09 in {1,2} market-oriented -> major-6 mean",
+      "n": 740,
+      "reason": ""
+    },
+    {
+      "stage": "  of which hh_e09 in {3,4} family use -> subsistence-code mean",
+      "n": 4533,
+      "reason": ""
+    },
+    {
+      "stage": "headline total (coded incl. TASCO-mapped + both imputed groups)",
+      "n": 7620,
+      "reason": ""
+    }
+  ],
+  "Uganda 2019": [
+    {
+      "stage": "all roster respondents (gsec2)",
+      "n": 16056,
+      "reason": ""
+    },
+    {
+      "stage": "labour-module rows (gsec8)",
+      "n": 11193,
+      "reason": ""
+    },
+    {
+      "stage": "coded 4-digit occupation, attached exposure",
+      "n": 7671,
+      "reason": ""
+    }
+  ],
+  "ALL": [
+    {
+      "stage": "headline pooled workers (Nigeria+Tanzania+Uganda)",
+      "n": 24838,
+      "reason": ""
+    },
+    {
+      "stage": "own-use-excluded robustness sample (drops family-use farmers, keeps market-oriented)",
+      "n": 18466,
+      "reason": ""
+    }
+  ],
+  "Ethiopia 2021 (out-migrant)": [
+    {
+      "stage": "all roster respondents (sect1)",
+      "n": 25374,
+      "reason": ""
+    },
+    {
+      "stage": "coded (major-group), DEMOTED to supplementary, EXCLUDED from headline",
+      "n": 584,
+      "reason": "Decision 2: population is people who left the origin household (see verification file)"
+    }
+  ],
+  "Ethiopia 2021 (resident)": [
+    {
+      "stage": "s4q34b non-missing (one-digit ISCO-88 major, incl. armed forces=10)",
+      "n": 2030,
+      "reason": ""
+    },
+    {
+      "stage": "armed forces (code 10), DROPPED",
+      "n": 41,
+      "reason": ""
+    },
+    {
+      "stage": "ISCO-88 major groups with a derived exposure value",
+      "n": 9,
+      "reason": "via crosswalks/isco88_to_isco08.xlsx unit-group correspondence"
+    },
+    {
+      "stage": "final resident wage supplementary sample (major88 1-9, exposure attached)",
+      "n": 1989,
+      "reason": "wage-job occupation only; cannot support an agriculture/own-account row"
+    }
+  ]
+}

@@ -12,5 +12,11 @@
   "spearman_exposed_vs_gdppc": 0.827503,
   "pearson_exposed_vs_gdppc": 0.858794,
   "n_gdppc": 31,
-  "exposed_median": 0.241581
+  "exposed_median": 0.241581,
+  "micro4_share_exposed": {
+    "ETH": 0.2208,
+    "NGA": 0.3327,
+    "TZA": 0.2379,
+    "UGA": 0.214
+  }
 }

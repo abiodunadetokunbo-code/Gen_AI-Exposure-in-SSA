@@ -1,0 +1,490 @@
+{
+  "n_1789": 1789,
+  "mean_tza_weight_placeholder": 2736.32,
+  "own_weight_mean_among_1789": 2627.57,
+  "flat_scores": {
+    "0.000": 0.0,
+    "0.029_agri": 0.0293,
+    "0.128_selfnonag": 0.1276,
+    "0.169_wagenonag": 0.1689
+  },
+  "industry_link": {
+    "tier_counts": {
+      "owner": 1532,
+      "manager": 14,
+      "engaged": 13,
+      "none": 230
+    },
+    "link_rate_pct": 87.1,
+    "n_section_matched": 1555,
+    "donor_overall_wtd_mean": 0.16,
+    "donor_by_section": {
+      "1": {
+        "n": 31,
+        "wmean": 0.094
+      },
+      "2": {
+        "n": 21,
+        "wmean": 0.0229
+      },
+      "3": {
+        "n": 163,
+        "wmean": 0.092
+      },
+      "4": {
+        "n": 1,
+        "wmean": 0.0387
+      },
+      "5": {
+        "n": 1,
+        "wmean": 0.3905
+      },
+      "6": {
+        "n": 7,
+        "wmean": 0.0116
+      },
+      "7": {
+        "n": 558,
+        "wmean": 0.1773
+      },
+      "8": {
+        "n": 87,
+        "wmean": 0.1529
+      },
+      "9": {
+        "n": 64,
+        "wmean": 0.1821
+      },
+      "11": {
+        "n": 3,
+        "wmean": 0.3122
+      },
+      "12": {
+        "n": 2,
+        "wmean": 0.3905
+      },
+      "13": {
+        "n": 6,
+        "wmean": 0.4029
+      },
+      "14": {
+        "n": 3,
+        "wmean": 0.1874
+      },
+      "16": {
+        "n": 8,
+        "wmean": 0.0771
+      },
+      "17": {
+        "n": 16,
+        "wmean": 0.2407
+      },
+      "18": {
+        "n": 5,
+        "wmean": 0.1247
+      },
+      "19": {
+        "n": 70,
+        "wmean": 0.1482
+      },
+      "20": {
+        "n": 1,
+        "wmean": 0.1663
+      }
+    },
+    "implied_mean_unweighted": 0.1623
+  },
+  "scenarios": {
+    "own|0.000": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0668,
+      "pooled_mean_weighted_point": 0.0871,
+      "pooled_weighted_design": {
+        "mean": 0.0871,
+        "se": 0.002,
+        "lo": 0.0833,
+        "hi": 0.0909,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0356,
+          "se": 0.0011,
+          "lo": 0.0334,
+          "hi": 0.0378,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0325,
+      "intervals_overlap": false
+    },
+    "own|0.029_agri": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0688,
+      "pooled_mean_weighted_point": 0.0882,
+      "pooled_weighted_design": {
+        "mean": 0.0882,
+        "se": 0.0019,
+        "lo": 0.0844,
+        "hi": 0.092,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.041,
+          "se": 0.0012,
+          "lo": 0.0387,
+          "hi": 0.0432,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0271,
+      "intervals_overlap": false
+    },
+    "own|0.128_selfnonag": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0754,
+      "pooled_mean_weighted_point": 0.0918,
+      "pooled_weighted_design": {
+        "mean": 0.0918,
+        "se": 0.0019,
+        "lo": 0.088,
+        "hi": 0.0956,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0591,
+          "se": 0.0015,
+          "lo": 0.0561,
+          "hi": 0.062,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.009,
+      "intervals_overlap": false
+    },
+    "own|0.169_wagenonag": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0782,
+      "pooled_mean_weighted_point": 0.0933,
+      "pooled_weighted_design": {
+        "mean": 0.0933,
+        "se": 0.0019,
+        "lo": 0.0895,
+        "hi": 0.0971,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0667,
+          "se": 0.0017,
+          "lo": 0.0633,
+          "hi": 0.07,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0014,
+      "intervals_overlap": true
+    },
+    "own|industry": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0777,
+      "pooled_mean_weighted_point": 0.093,
+      "pooled_weighted_design": {
+        "mean": 0.093,
+        "se": 0.0019,
+        "lo": 0.0892,
+        "hi": 0.0968,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0651,
+          "se": 0.0017,
+          "lo": 0.0619,
+          "hi": 0.0684,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.003,
+      "intervals_overlap": true
+    },
+    "mean_placeholder|0.000": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0668,
+      "pooled_mean_weighted_point": 0.087,
+      "pooled_weighted_design": {
+        "mean": 0.087,
+        "se": 0.002,
+        "lo": 0.0831,
+        "hi": 0.0908,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0353,
+          "se": 0.0011,
+          "lo": 0.0331,
+          "hi": 0.0375,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0328,
+      "intervals_overlap": false
+    },
+    "mean_placeholder|0.029_agri": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0688,
+      "pooled_mean_weighted_point": 0.0881,
+      "pooled_weighted_design": {
+        "mean": 0.0881,
+        "se": 0.0019,
+        "lo": 0.0843,
+        "hi": 0.0919,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0409,
+          "se": 0.0012,
+          "lo": 0.0386,
+          "hi": 0.0431,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0272,
+      "intervals_overlap": false
+    },
+    "mean_placeholder|0.128_selfnonag": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0754,
+      "pooled_mean_weighted_point": 0.0918,
+      "pooled_weighted_design": {
+        "mean": 0.0918,
+        "se": 0.0019,
+        "lo": 0.088,
+        "hi": 0.0956,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0596,
+          "se": 0.0014,
+          "lo": 0.0569,
+          "hi": 0.0623,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0085,
+      "intervals_overlap": false
+    },
+    "mean_placeholder|0.169_wagenonag": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0782,
+      "pooled_mean_weighted_point": 0.0934,
+      "pooled_weighted_design": {
+        "mean": 0.0934,
+        "se": 0.0019,
+        "lo": 0.0896,
+        "hi": 0.0972,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0674,
+          "se": 0.0015,
+          "lo": 0.0644,
+          "hi": 0.0705,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0007,
+      "intervals_overlap": true
+    },
+    "mean_placeholder|industry": {
+      "n_pooled": 26627,
+      "n_tanzania": 9409,
+      "pooled_mean_unweighted": 0.0777,
+      "pooled_mean_weighted_point": 0.0931,
+      "pooled_weighted_design": {
+        "mean": 0.0931,
+        "se": 0.0019,
+        "lo": 0.0894,
+        "hi": 0.0969,
+        "n": 26627
+      },
+      "by_country_weighted_design": {
+        "Nigeria 2023": {
+          "mean": 0.1071,
+          "se": 0.0029,
+          "lo": 0.1015,
+          "hi": 0.1127,
+          "n": 9547
+        },
+        "Tanzania 2020": {
+          "mean": 0.0662,
+          "se": 0.0015,
+          "lo": 0.0632,
+          "hi": 0.0692,
+          "n": 9409
+        },
+        "Uganda 2019": {
+          "mean": 0.0681,
+          "se": 0.0025,
+          "lo": 0.0632,
+          "hi": 0.0729,
+          "n": 7671
+        }
+      },
+      "order_nga_uga_tza_holds": true,
+      "margin_uga_minus_tza": 0.0019,
+      "intervals_overlap": true
+    }
+  },
+  "regression_test_mismatches": []
+}

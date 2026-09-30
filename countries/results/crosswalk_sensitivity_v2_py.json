@@ -1,0 +1,159 @@
+{
+  "mean": {
+    "pooled": 0.0716,
+    "pooled_wtd": 0.0904,
+    "wtd|Nigeria 2023": 0.1071,
+    "wtd|Tanzania 2020": 0.0436,
+    "wtd|Uganda 2019": 0.0681,
+    "agriculture": 0.0293,
+    "selfemp_nonag": 0.1338,
+    "wage_nonag": 0.1501,
+    "wage_minus_self": 0.0163,
+    "clerical": 0.6146,
+    "skilled_agri": 0.031,
+    "clerical_over_agri": 19.8178
+  },
+  "median": {
+    "pooled": 0.0699,
+    "pooled_wtd": 0.089,
+    "wtd|Nigeria 2023": 0.1062,
+    "wtd|Tanzania 2020": 0.0405,
+    "wtd|Uganda 2019": 0.0662,
+    "agriculture": 0.0288,
+    "selfemp_nonag": 0.13,
+    "wage_nonag": 0.1461,
+    "wage_minus_self": 0.0161,
+    "clerical": 0.6168,
+    "skilled_agri": 0.0307,
+    "clerical_over_agri": 20.1225
+  },
+  "min": {
+    "pooled": 0.0449,
+    "pooled_wtd": 0.0581,
+    "wtd|Nigeria 2023": 0.0702,
+    "wtd|Tanzania 2020": 0.0244,
+    "wtd|Uganda 2019": 0.0416,
+    "agriculture": 0.0081,
+    "selfemp_nonag": 0.1052,
+    "wage_nonag": 0.1055,
+    "wage_minus_self": 0.0003,
+    "clerical": 0.5427,
+    "skilled_agri": 0.0084,
+    "clerical_over_agri": 64.7557
+  },
+  "max": {
+    "pooled": 0.1015,
+    "pooled_wtd": 0.1259,
+    "wtd|Nigeria 2023": 0.1467,
+    "wtd|Tanzania 2020": 0.0678,
+    "wtd|Uganda 2019": 0.0976,
+    "agriculture": 0.0501,
+    "selfemp_nonag": 0.1693,
+    "wage_nonag": 0.2057,
+    "wage_minus_self": 0.0364,
+    "clerical": 0.6843,
+    "skilled_agri": 0.0532,
+    "clerical_over_agri": 12.8636
+  },
+  "emp_weighted": {
+    "pooled": 0.0633,
+    "pooled_wtd": 0.0802,
+    "wtd|Nigeria 2023": 0.0953,
+    "wtd|Tanzania 2020": 0.0409,
+    "wtd|Uganda 2019": 0.0572,
+    "agriculture": 0.0195,
+    "selfemp_nonag": 0.1264,
+    "wage_nonag": 0.1461,
+    "wage_minus_self": 0.0196,
+    "clerical": 0.6125,
+    "skilled_agri": 0.0205,
+    "clerical_over_agri": 29.8728
+  },
+  "draws": {
+    "pooled": {
+      "mean": 0.0715,
+      "sd": 0.0043,
+      "p025": 0.0635,
+      "p975": 0.0802
+    },
+    "pooled_wtd": {
+      "mean": 0.0903,
+      "sd": 0.0049,
+      "p025": 0.0808,
+      "p975": 0.0996
+    },
+    "wtd|Nigeria 2023": {
+      "mean": 0.1069,
+      "sd": 0.0058,
+      "p025": 0.0953,
+      "p975": 0.1181
+    },
+    "wtd|Tanzania 2020": {
+      "mean": 0.0436,
+      "sd": 0.0046,
+      "p025": 0.036,
+      "p975": 0.0529
+    },
+    "wtd|Uganda 2019": {
+      "mean": 0.068,
+      "sd": 0.0051,
+      "p025": 0.0578,
+      "p975": 0.078
+    },
+    "agriculture": {
+      "mean": 0.0291,
+      "sd": 0.006,
+      "p025": 0.0177,
+      "p975": 0.0414
+    },
+    "selfemp_nonag": {
+      "mean": 0.1337,
+      "sd": 0.0067,
+      "p025": 0.1213,
+      "p975": 0.147
+    },
+    "wage_nonag": {
+      "mean": 0.1501,
+      "sd": 0.0068,
+      "p025": 0.1375,
+      "p975": 0.1637
+    },
+    "wage_minus_self": {
+      "mean": 0.0163,
+      "sd": 0.0068,
+      "p025": 0.0026,
+      "p975": 0.0286
+    },
+    "clerical": {
+      "mean": 0.6143,
+      "sd": 0.0242,
+      "p025": 0.5683,
+      "p975": 0.6609
+    },
+    "skilled_agri": {
+      "mean": 0.0308,
+      "sd": 0.0065,
+      "p025": 0.0186,
+      "p975": 0.044
+    },
+    "clerical_over_agri": {
+      "mean": 20.9504,
+      "sd": 5.2636,
+      "p025": 13.8804,
+      "p975": 33.8209
+    }
+  },
+  "draws_share_wage_above_self": 0.993,
+  "draws_share_clerical_over_agri_gt_10": 1.0,
+  "meta": {
+    "n_draws": 2000,
+    "seed": 20260919,
+    "isco_codes_linked": 423,
+    "isco_single_link": 127,
+    "oews_release": "May 2018 national, 2010 SOC",
+    "onetsoc_with_employment": 1431,
+    "onetsoc_linked": 1456,
+    "isco_employment_weighted": 422,
+    "isco_fell_back_to_mean": 1
+  }
+}

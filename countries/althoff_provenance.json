@@ -1,0 +1,110 @@
+{
+  "canonical_moderate_qwen": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "b56dcf23dd0ab1f4e545d4bfd24927146ce1ea71affb5f2b7d6cbc75ff879586",
+    "n_bytes": 3652314,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\canonical_moderate_qwen.csv"
+  },
+  "no_explicit_scenario_gpt4o": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/no_explicit_scenario/gpt4o/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/no_explicit_scenario/gpt4o/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "2b0865818f657784feb1a8289e24e58af8552a83e65188e657a2f01ba143f36a",
+    "n_bytes": 3653598,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\no_explicit_scenario_gpt4o.csv"
+  },
+  "no_explicit_scenario_qwen": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/no_explicit_scenario/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/no_explicit_scenario/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "0c0f5685f8e53929a2899e9e4dacf5add77228397c4b425b99b3c123b0c072ec",
+    "n_bytes": 3653198,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\no_explicit_scenario_qwen.csv"
+  },
+  "no_explicit_scenario_gptoss": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/no_explicit_scenario/gpt-oss/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/no_explicit_scenario/gpt-oss/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "5afb9f6bc8a26b3b93a6ed5b87fd1a94af6f9b7b0eafa7bd81b77b604bd02742",
+    "n_bytes": 3667353,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\no_explicit_scenario_gptoss.csv"
+  },
+  "slow_qwen": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/slow/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/slow/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "7bf87c72f41c05a484193d87821315486fbb2b1568dae16199428025bb06f0f3",
+    "n_bytes": 3652470,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\slow_qwen.csv"
+  },
+  "slow_gptoss": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/slow/gpt-oss/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/slow/gpt-oss/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "056bc0a599392923cd5aae68c61098e8025d27f3f27b14339c2fcce300b18d6a",
+    "n_bytes": 3665533,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\slow_gptoss.csv"
+  },
+  "rapid_qwen": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/rapid/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/rapid/qwen2.5-72b-awq/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "5de082abce79929be9d8f7b921a9dded1f7485123b4ba288085d12d4880bea8e",
+    "n_bytes": 3657822,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\rapid_qwen.csv"
+  },
+  "rapid_gptoss": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/rapid/gpt-oss/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/rapid/gpt-oss/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "ae65c3e47c1131ee0e9b0a570e6d8a800aa64284b94eac5149d6e325ac8051b5",
+    "n_bytes": 3665148,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\rapid_gptoss.csv"
+  },
+  "moderate_gptoss": {
+    "repo": "lukasalthoff/ai_labor_markets",
+    "path": "ai_capabilities/alternative_specifications/moderate/gpt-oss/task_ai_capabilities.csv",
+    "commit": "4706d49b5da3fbc912679a51b670427b52fafd1f",
+    "commit_date": "2026-06-07T06:22:23Z",
+    "url": "https://raw.githubusercontent.com/lukasalthoff/ai_labor_markets/4706d49b5da3fbc912679a51b670427b52fafd1f/ai_capabilities/alternative_specifications/moderate/gpt-oss/task_ai_capabilities.csv",
+    "download_date": "2026-09-18",
+    "sha256": "9e977a346450791d9facd9e6d3326df39474d34074a04b472d1b1985620c3bc7",
+    "n_bytes": 3662320,
+    "n_lines": 19531,
+    "local_path": "countries/althoff_variants\\moderate_gptoss.csv"
+  }
+}

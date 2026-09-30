@@ -1,0 +1,121 @@
+{
+  "common_sample": [
+    "AGO",
+    "BDI",
+    "BEN",
+    "BFA",
+    "CIV",
+    "CMR",
+    "COD",
+    "EGY",
+    "ETH",
+    "GHA",
+    "KEN",
+    "MDG",
+    "MLI",
+    "MOZ",
+    "MWI",
+    "NER",
+    "NGA",
+    "RWA",
+    "SDN",
+    "SEN",
+    "TCD",
+    "TGO",
+    "TUN",
+    "TZA",
+    "UGA",
+    "ZMB",
+    "ZWE"
+  ],
+  "n_common": 27,
+  "own_sample_n": {
+    "ai_route_share": 28,
+    "exp_lsms": 27
+  },
+  "metrics": {
+    "ai_route_share": {
+      "outcome_label": "Atlas, exposed through AI",
+      "n": 27,
+      "r2_full": 0.8374,
+      "sd_outcome": 0.0739,
+      "terms": {
+        "informal_s": {
+          "label": "Informal employment rate",
+          "b": -0.27,
+          "se": 0.057,
+          "beta_std": -0.4007,
+          "incremental_r2": 0.085
+        },
+        "agri_s": {
+          "label": "Agricultural self-employment",
+          "b": -0.0921,
+          "se": 0.0484,
+          "beta_std": -0.2397,
+          "incremental_r2": 0.0295
+        },
+        "lgdp": {
+          "label": "Log GDP per head",
+          "b": 0.0437,
+          "se": 0.0116,
+          "beta_std": 0.4065,
+          "incremental_r2": 0.0774
+        }
+      },
+      "rank_by_abs_beta": [
+        "Log GDP per head",
+        "Informal employment rate",
+        "Agricultural self-employment"
+      ],
+      "rank_by_incremental_r2": [
+        "Informal employment rate",
+        "Log GDP per head",
+        "Agricultural self-employment"
+      ],
+      "top_by_abs_beta": "Log GDP per head",
+      "top_by_incremental_r2": "Informal employment rate"
+    },
+    "exp_lsms": {
+      "outcome_label": "ILOSTAT rebuild",
+      "n": 27,
+      "r2_full": 0.7395,
+      "sd_outcome": 0.0212,
+      "terms": {
+        "informal_s": {
+          "label": "Informal employment rate",
+          "b": -0.0353,
+          "se": 0.0196,
+          "beta_std": -0.1824,
+          "incremental_r2": 0.0176
+        },
+        "agri_s": {
+          "label": "Agricultural self-employment",
+          "b": -0.0542,
+          "se": 0.0201,
+          "beta_std": -0.4917,
+          "incremental_r2": 0.1239
+        },
+        "lgdp": {
+          "label": "Log GDP per head",
+          "b": 0.0093,
+          "se": 0.0051,
+          "beta_std": 0.3011,
+          "incremental_r2": 0.0425
+        }
+      },
+      "rank_by_abs_beta": [
+        "Agricultural self-employment",
+        "Log GDP per head",
+        "Informal employment rate"
+      ],
+      "rank_by_incremental_r2": [
+        "Agricultural self-employment",
+        "Log GDP per head",
+        "Informal employment rate"
+      ],
+      "top_by_abs_beta": "Agricultural self-employment",
+      "top_by_incremental_r2": "Agricultural self-employment"
+    }
+  },
+  "income_ranks_first_everywhere": false
+}

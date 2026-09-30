@@ -1,0 +1,991 @@
+{
+  "country_composition": {
+    "Nigeria 2023": {
+      "n": 9547,
+      "mean_unw": 0.1021,
+      "mean_wtd": 0.1071,
+      "agri_unw": 42.2,
+      "agri_wtd": 36.9,
+      "self_unw": 42.7,
+      "wage_unw": 15.1,
+      "urban_unw": 29.2,
+      "urban_wtd": 35.5,
+      "female_wtd": 46.5
+    },
+    "Tanzania 2020": {
+      "n": 7620,
+      "mean_unw": 0.05,
+      "mean_wtd": 0.0436,
+      "agri_unw": 76.5,
+      "agri_wtd": 80.8,
+      "self_unw": 0.0,
+      "wage_unw": 23.5,
+      "urban_unw": 27.0,
+      "urban_wtd": 18.3,
+      "female_wtd": 46.4
+    },
+    "Uganda 2019": {
+      "n": 7671,
+      "mean_unw": 0.0553,
+      "mean_wtd": 0.0681,
+      "agri_unw": 72.8,
+      "agri_wtd": 64.9,
+      "self_unw": 13.6,
+      "wage_unw": 13.6,
+      "urban_unw": 19.3,
+      "urban_wtd": 25.3,
+      "female_wtd": 49.7
+    },
+    "All (pooled)": {
+      "n": 24838,
+      "mean_unw": 0.0716,
+      "mean_wtd": 0.0904,
+      "agri_unw": 62.2,
+      "agri_wtd": 48.6,
+      "self_unw": 20.6,
+      "wage_unw": 17.2,
+      "urban_unw": 25.5,
+      "urban_wtd": 31.0,
+      "female_wtd": 47.0
+    }
+  },
+  "pooled_equal_country_mean": 0.0729,
+  "group_means_ci": {
+    "pooled": {
+      "mean": 0.0716,
+      "se": 0.0008,
+      "lo": 0.07,
+      "hi": 0.0733,
+      "n": 24838
+    },
+    "pooled_weighted": {
+      "mean": 0.0904,
+      "se": 0.0014,
+      "lo": 0.0877,
+      "hi": 0.0931,
+      "n": 24838
+    },
+    "status_agriculture": {
+      "mean": 0.0293,
+      "se": 0.0005,
+      "lo": 0.0284,
+      "hi": 0.0302,
+      "n": 15441
+    },
+    "status_agriculture_wtd": {
+      "mean": 0.037,
+      "se": 0.0007,
+      "lo": 0.0356,
+      "hi": 0.0383,
+      "n": 15441
+    },
+    "status_agriculture|Nigeria 2023": {
+      "mean": 0.0454,
+      "se": 0.0011,
+      "lo": 0.0432,
+      "hi": 0.0476,
+      "n": 4029
+    },
+    "status_agriculture|Tanzania 2020": {
+      "mean": 0.0258,
+      "se": 0.0004,
+      "lo": 0.0249,
+      "hi": 0.0266,
+      "n": 5830
+    },
+    "status_agriculture|Uganda 2019": {
+      "mean": 0.0214,
+      "se": 0.0008,
+      "lo": 0.0199,
+      "hi": 0.0229,
+      "n": 5582
+    },
+    "status_selfemp_nonag": {
+      "mean": 0.1338,
+      "se": 0.0017,
+      "lo": 0.1305,
+      "hi": 0.1371,
+      "n": 5122
+    },
+    "status_selfemp_nonag_wtd": {
+      "mean": 0.1276,
+      "se": 0.0021,
+      "lo": 0.1236,
+      "hi": 0.1317,
+      "n": 5122
+    },
+    "status_selfemp_nonag|Nigeria 2023": {
+      "mean": 0.1276,
+      "se": 0.0018,
+      "lo": 0.1241,
+      "hi": 0.1311,
+      "n": 4075
+    },
+    "status_selfemp_nonag|Uganda 2019": {
+      "mean": 0.1578,
+      "se": 0.0043,
+      "lo": 0.1494,
+      "hi": 0.1663,
+      "n": 1047
+    },
+    "status_wage_nonag": {
+      "mean": 0.1501,
+      "se": 0.0027,
+      "lo": 0.1448,
+      "hi": 0.1554,
+      "n": 4275
+    },
+    "status_wage_nonag_wtd": {
+      "mean": 0.1689,
+      "se": 0.0048,
+      "lo": 0.1595,
+      "hi": 0.1783,
+      "n": 4275
+    },
+    "status_wage_nonag|Nigeria 2023": {
+      "mean": 0.1882,
+      "se": 0.0055,
+      "lo": 0.1774,
+      "hi": 0.1989,
+      "n": 1443
+    },
+    "status_wage_nonag|Tanzania 2020": {
+      "mean": 0.1288,
+      "se": 0.0037,
+      "lo": 0.1216,
+      "hi": 0.1361,
+      "n": 1790
+    },
+    "status_wage_nonag|Uganda 2019": {
+      "mean": 0.134,
+      "se": 0.0047,
+      "lo": 0.1248,
+      "hi": 0.1432,
+      "n": 1042
+    },
+    "wage_formal": {
+      "mean": 0.2133,
+      "se": 0.0052,
+      "lo": 0.2032,
+      "hi": 0.2235,
+      "n": 1801
+    },
+    "wage_informal": {
+      "mean": 0.1039,
+      "se": 0.0023,
+      "lo": 0.0993,
+      "hi": 0.1084,
+      "n": 2466
+    },
+    "urban": {
+      "mean": 0.1197,
+      "se": 0.0021,
+      "lo": 0.1156,
+      "hi": 0.1237,
+      "n": 6322
+    },
+    "rural": {
+      "mean": 0.0552,
+      "se": 0.0008,
+      "lo": 0.0537,
+      "hi": 0.0568,
+      "n": 18516
+    },
+    "male": {
+      "mean": 0.0767,
+      "se": 0.0011,
+      "lo": 0.0746,
+      "hi": 0.0788,
+      "n": 13146
+    },
+    "female": {
+      "mean": 0.0659,
+      "se": 0.001,
+      "lo": 0.0639,
+      "hi": 0.068,
+      "n": 11692
+    },
+    "major_1": {
+      "mean": 0.2094,
+      "se": 0.0024,
+      "lo": 0.2047,
+      "hi": 0.2141,
+      "n": 1202
+    },
+    "major_2": {
+      "mean": 0.1606,
+      "se": 0.0046,
+      "lo": 0.1516,
+      "hi": 0.1696,
+      "n": 1143
+    },
+    "major_3": {
+      "mean": 0.3633,
+      "se": 0.0122,
+      "lo": 0.3394,
+      "hi": 0.3871,
+      "n": 409
+    },
+    "major_4": {
+      "mean": 0.6146,
+      "se": 0.013,
+      "lo": 0.589,
+      "hi": 0.6401,
+      "n": 141
+    },
+    "major_5": {
+      "mean": 0.1423,
+      "se": 0.002,
+      "lo": 0.1383,
+      "hi": 0.1462,
+      "n": 2854
+    },
+    "major_6": {
+      "mean": 0.031,
+      "se": 0.0005,
+      "lo": 0.03,
+      "hi": 0.032,
+      "n": 14359
+    },
+    "major_7": {
+      "mean": 0.0508,
+      "se": 0.0026,
+      "lo": 0.0458,
+      "hi": 0.0558,
+      "n": 1235
+    },
+    "major_8": {
+      "mean": 0.1437,
+      "se": 0.0024,
+      "lo": 0.139,
+      "hi": 0.1484,
+      "n": 837
+    },
+    "major_9": {
+      "mean": 0.028,
+      "se": 0.0008,
+      "lo": 0.0264,
+      "hi": 0.0297,
+      "n": 2658
+    }
+  },
+  "informality_by_country": {
+    "Nigeria 2023": {
+      "n_wage": 1443,
+      "n_answered": 1435,
+      "informal_v2": 0.4042,
+      "informal_v2_wtd": 0.4074,
+      "informal_own_rule": null,
+      "mean_formal": 0.2338,
+      "mean_informal": 0.121
+    },
+    "Tanzania 2020": {
+      "n_wage": 1790,
+      "n_answered": 1790,
+      "informal_v2": 0.6732,
+      "informal_v2_wtd": 0.6937,
+      "informal_own_rule": 0.8128,
+      "mean_formal": 0.1955,
+      "mean_informal": 0.0965
+    },
+    "Uganda 2019": {
+      "n_wage": 1042,
+      "n_answered": 1042,
+      "informal_v2": 0.6536,
+      "informal_v2_wtd": 0.6229,
+      "informal_own_rule": 0.6468,
+      "mean_formal": 0.1937,
+      "mean_informal": 0.1023
+    }
+  },
+  "tests": {
+    "wage_vs_self_nonag": {
+      "Intercept": {
+        "b": 0.1338,
+        "se": 0.0017,
+        "p": 0.0
+      },
+      "wage_d": {
+        "b": 0.0163,
+        "se": 0.0032,
+        "p": 0.0
+      },
+      "_n": 9397,
+      "_r2": 0.0034
+    },
+    "wage_vs_self_nonag_cfe": {
+      "Intercept": {
+        "b": 0.1349,
+        "se": 0.0018,
+        "p": 0.0
+      },
+      "wage_d": {
+        "b": 0.0328,
+        "se": 0.0044,
+        "p": 0.0
+      },
+      "_n": 9397,
+      "_r2": 0.0112
+    },
+    "informal_vs_formal": {
+      "Intercept": {
+        "b": 0.2133,
+        "se": 0.0052,
+        "p": 0.0
+      },
+      "infd": {
+        "b": -0.1095,
+        "se": 0.0057,
+        "p": 0.0
+      },
+      "_n": 4267,
+      "_r2": 0.0995
+    },
+    "informal_vs_formal_cfe": {
+      "Intercept": {
+        "b": 0.2295,
+        "se": 0.0063,
+        "p": 0.0
+      },
+      "infd": {
+        "b": -0.1021,
+        "se": 0.0058,
+        "p": 0.0
+      },
+      "_n": 4267,
+      "_r2": 0.1062
+    },
+    "female": {
+      "Intercept": {
+        "b": 0.0767,
+        "se": 0.0011,
+        "p": 0.0
+      },
+      "fem": {
+        "b": -0.0107,
+        "se": 0.0013,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.0026
+    },
+    "female_cfe": {
+      "Intercept": {
+        "b": 0.1073,
+        "se": 0.0016,
+        "p": 0.0
+      },
+      "fem": {
+        "b": -0.0111,
+        "se": 0.0013,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.0558
+    },
+    "urban": {
+      "Intercept": {
+        "b": 0.0552,
+        "se": 0.0008,
+        "p": 0.0
+      },
+      "urban": {
+        "b": 0.0644,
+        "se": 0.0022,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.0716
+    },
+    "urban_cfe": {
+      "Intercept": {
+        "b": 0.0841,
+        "se": 0.0014,
+        "p": 0.0
+      },
+      "urban": {
+        "b": 0.0616,
+        "se": 0.0022,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.1178
+    }
+  },
+  "status_reg": {
+    "m1": {
+      "Intercept": {
+        "b": 0.0293,
+        "se": 0.0005,
+        "p": 0.0
+      },
+      "self_d": {
+        "b": 0.1045,
+        "se": 0.0018,
+        "p": 0.0
+      },
+      "wage_d": {
+        "b": 0.1208,
+        "se": 0.0027,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.2703
+    },
+    "m2": {
+      "Intercept": {
+        "b": 0.0442,
+        "se": 0.0014,
+        "p": 0.0
+      },
+      "self_d": {
+        "b": 0.0933,
+        "se": 0.0021,
+        "p": 0.0
+      },
+      "wage_d": {
+        "b": 0.1196,
+        "se": 0.0027,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.2774
+    },
+    "m3": {
+      "Intercept": {
+        "b": 0.0327,
+        "se": 0.0019,
+        "p": 0.0
+      },
+      "self_d": {
+        "b": 0.088,
+        "se": 0.0022,
+        "p": 0.0
+      },
+      "wage_d": {
+        "b": 0.1111,
+        "se": 0.0027,
+        "p": 0.0
+      },
+      "urban": {
+        "b": 0.015,
+        "se": 0.0019,
+        "p": 0.0
+      },
+      "fem": {
+        "b": -0.0053,
+        "se": 0.0012,
+        "p": 0.0
+      },
+      "age": {
+        "b": 0.0003,
+        "se": 0.0,
+        "p": 0.0
+      },
+      "_n": 24838,
+      "_r2": 0.2845
+    }
+  },
+  "robustness": {
+    "baseline": {
+      "n": 24838,
+      "mean": 0.0716,
+      "mean_wtd": 0.0904,
+      "agri_share": 62.2,
+      "agri_mean": 0.0293,
+      "self_mean": 0.1338,
+      "wage_mean": 0.1501,
+      "near_zero": 57.5
+    },
+    "own_use_excluded": {
+      "n": 18466,
+      "mean": 0.0898,
+      "mean_wtd": 0.1104,
+      "agri_share": 49.1,
+      "agri_mean": 0.0365,
+      "self_mean": 0.1338,
+      "wage_mean": 0.1501,
+      "near_zero": 42.8
+    },
+    "coded_only": {
+      "n": 17726,
+      "mean": 0.0904,
+      "mean_wtd": 0.1112,
+      "agri_share": 47.0,
+      "agri_mean": 0.033,
+      "self_mean": 0.1338,
+      "wage_mean": 0.1501,
+      "near_zero": 44.6
+    },
+    "drop_tasco_mapped": {
+      "n": 24699,
+      "mean": 0.0714,
+      "mean_wtd": 0.0903,
+      "agri_share": 62.5,
+      "agri_mean": 0.0293,
+      "self_mean": 0.1338,
+      "wage_mean": 0.1511,
+      "near_zero": 57.8
+    },
+    "baseline|Nigeria 2023": {
+      "n": 9547,
+      "mean": 0.1021,
+      "mean_wtd": 0.1071,
+      "agri_share": 42.2,
+      "agri_mean": 0.0454,
+      "self_mean": 0.1276,
+      "wage_mean": 0.1882,
+      "near_zero": 38.4
+    },
+    "own_use_excluded|Nigeria 2023": {
+      "n": 7708,
+      "mean": 0.1219,
+      "mean_wtd": 0.125,
+      "agri_share": 28.4,
+      "agri_mean": 0.0676,
+      "self_mean": 0.1276,
+      "wage_mean": 0.1882,
+      "near_zero": 23.7
+    },
+    "coded_only|Nigeria 2023": {
+      "n": 7708,
+      "mean": 0.1219,
+      "mean_wtd": 0.125,
+      "agri_share": 28.4,
+      "agri_mean": 0.0676,
+      "self_mean": 0.1276,
+      "wage_mean": 0.1882,
+      "near_zero": 23.7
+    },
+    "baseline|Tanzania 2020": {
+      "n": 7620,
+      "mean": 0.05,
+      "mean_wtd": 0.0436,
+      "agri_share": 76.5,
+      "agri_mean": 0.0258,
+      "self_mean": NaN,
+      "wage_mean": 0.1288,
+      "near_zero": 74.0
+    },
+    "own_use_excluded|Tanzania 2020": {
+      "n": 3087,
+      "mean": 0.0955,
+      "mean_wtd": 0.0835,
+      "agri_share": 42.0,
+      "agri_mean": 0.0495,
+      "self_mean": NaN,
+      "wage_mean": 0.1288,
+      "near_zero": 35.9
+    },
+    "coded_only|Tanzania 2020": {
+      "n": 2347,
+      "mean": 0.1016,
+      "mean_wtd": 0.0862,
+      "agri_share": 23.7,
+      "agri_mean": 0.0142,
+      "self_mean": NaN,
+      "wage_mean": 0.1288,
+      "near_zero": 47.2
+    },
+    "baseline|Uganda 2019": {
+      "n": 7671,
+      "mean": 0.0553,
+      "mean_wtd": 0.0681,
+      "agri_share": 72.8,
+      "agri_mean": 0.0214,
+      "self_mean": 0.1578,
+      "wage_mean": 0.134,
+      "near_zero": 64.8
+    },
+    "own_use_excluded|Uganda 2019": {
+      "n": 7671,
+      "mean": 0.0553,
+      "mean_wtd": 0.0681,
+      "agri_share": 72.8,
+      "agri_mean": 0.0214,
+      "self_mean": 0.1578,
+      "wage_mean": 0.134,
+      "near_zero": 64.8
+    },
+    "coded_only|Uganda 2019": {
+      "n": 7671,
+      "mean": 0.0553,
+      "mean_wtd": 0.0681,
+      "agri_share": 72.8,
+      "agri_mean": 0.0214,
+      "self_mean": 0.1578,
+      "wage_mean": 0.134,
+      "near_zero": 64.8
+    },
+    "imputed_alternatives": {
+      "family_use|major6_mean": {
+        "assigned": 0.0761,
+        "pooled_mean": 0.0863,
+        "pooled_mean_wtd": 0.1029,
+        "nga_mean": 0.1131,
+        "tza_mean": 0.084,
+        "agri_mean": 0.0529
+      },
+      "family_use|subsistence_mean": {
+        "assigned": 0.019,
+        "pooled_mean": 0.0716,
+        "pooled_mean_wtd": 0.0904,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.05,
+        "agri_mean": 0.0293
+      },
+      "family_use|min_major6": {
+        "assigned": 0.0,
+        "pooled_mean": 0.0668,
+        "pooled_mean_wtd": 0.0863,
+        "nga_mean": 0.0984,
+        "tza_mean": 0.0387,
+        "agri_mean": 0.0215
+      },
+      "family_use|max_major6": {
+        "assigned": 0.1017,
+        "pooled_mean": 0.0929,
+        "pooled_mean_wtd": 0.1085,
+        "nga_mean": 0.118,
+        "tza_mean": 0.0992,
+        "agri_mean": 0.0634
+      },
+      "family_use|elementary_agri_9211": {
+        "assigned": 0.0,
+        "pooled_mean": 0.0668,
+        "pooled_mean_wtd": 0.0863,
+        "nga_mean": 0.0984,
+        "tza_mean": 0.0387,
+        "agri_mean": 0.0215
+      },
+      "tza_market|major6_mean": {
+        "assigned": 0.0761,
+        "pooled_mean": 0.0716,
+        "pooled_mean_wtd": 0.0904,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.05,
+        "agri_mean": 0.0293
+      },
+      "tza_market|subsistence_mean": {
+        "assigned": 0.019,
+        "pooled_mean": 0.0699,
+        "pooled_mean_wtd": 0.0894,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.0444,
+        "agri_mean": 0.0265
+      },
+      "tza_market|min_major6": {
+        "assigned": 0.0,
+        "pooled_mean": 0.0694,
+        "pooled_mean_wtd": 0.0891,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.0426,
+        "agri_mean": 0.0256
+      },
+      "tza_market|max_major6": {
+        "assigned": 0.1017,
+        "pooled_mean": 0.0724,
+        "pooled_mean_wtd": 0.0908,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.0525,
+        "agri_mean": 0.0305
+      },
+      "tza_market|elementary_agri_9211": {
+        "assigned": 0.0,
+        "pooled_mean": 0.0694,
+        "pooled_mean_wtd": 0.0891,
+        "nga_mean": 0.1021,
+        "tza_mean": 0.0426,
+        "agri_mean": 0.0256
+      }
+    }
+  },
+  "major_profile": {
+    "pooled": {
+      "1": {
+        "n": 1202,
+        "share": 4.8,
+        "mean": 0.2094
+      },
+      "2": {
+        "n": 1143,
+        "share": 4.6,
+        "mean": 0.1606
+      },
+      "3": {
+        "n": 409,
+        "share": 1.6,
+        "mean": 0.3633
+      },
+      "4": {
+        "n": 141,
+        "share": 0.6,
+        "mean": 0.6146
+      },
+      "5": {
+        "n": 2854,
+        "share": 11.5,
+        "mean": 0.1423
+      },
+      "6": {
+        "n": 14359,
+        "share": 57.8,
+        "mean": 0.031
+      },
+      "7": {
+        "n": 1235,
+        "share": 5.0,
+        "mean": 0.0508
+      },
+      "8": {
+        "n": 837,
+        "share": 3.4,
+        "mean": 0.1437
+      },
+      "9": {
+        "n": 2658,
+        "share": 10.7,
+        "mean": 0.028
+      }
+    },
+    "Nigeria 2023": {
+      "1": {
+        "n": 1159,
+        "share": 12.1,
+        "mean": 0.2033
+      },
+      "2": {
+        "n": 685,
+        "share": 7.2,
+        "mean": 0.1539
+      },
+      "3": {
+        "n": 261,
+        "share": 2.7,
+        "mean": 0.396
+      },
+      "4": {
+        "n": 83,
+        "share": 0.9,
+        "mean": 0.6106
+      },
+      "5": {
+        "n": 1598,
+        "share": 16.7,
+        "mean": 0.1129
+      },
+      "6": {
+        "n": 3857,
+        "share": 40.4,
+        "mean": 0.0473
+      },
+      "7": {
+        "n": 779,
+        "share": 8.2,
+        "mean": 0.0289
+      },
+      "8": {
+        "n": 485,
+        "share": 5.1,
+        "mean": 0.1397
+      },
+      "9": {
+        "n": 640,
+        "share": 6.7,
+        "mean": 0.0413
+      }
+    },
+    "Tanzania 2020": {
+      "1": {
+        "n": 15,
+        "share": 0.2,
+        "mean": 0.3935
+      },
+      "2": {
+        "n": 210,
+        "share": 2.8,
+        "mean": 0.2018
+      },
+      "3": {
+        "n": 81,
+        "share": 1.1,
+        "mean": 0.334
+      },
+      "4": {
+        "n": 38,
+        "share": 0.5,
+        "mean": 0.6125
+      },
+      "5": {
+        "n": 404,
+        "share": 5.3,
+        "mean": 0.15
+      },
+      "6": {
+        "n": 5419,
+        "share": 71.1,
+        "mean": 0.0272
+      },
+      "7": {
+        "n": 202,
+        "share": 2.7,
+        "mean": 0.105
+      },
+      "8": {
+        "n": 185,
+        "share": 2.4,
+        "mean": 0.1527
+      },
+      "9": {
+        "n": 1066,
+        "share": 14.0,
+        "mean": 0.0231
+      }
+    },
+    "Uganda 2019": {
+      "1": {
+        "n": 28,
+        "share": 0.4,
+        "mean": 0.363
+      },
+      "2": {
+        "n": 248,
+        "share": 3.2,
+        "mean": 0.1442
+      },
+      "3": {
+        "n": 67,
+        "share": 0.9,
+        "mean": 0.2711
+      },
+      "4": {
+        "n": 20,
+        "share": 0.3,
+        "mean": 0.6348
+      },
+      "5": {
+        "n": 852,
+        "share": 11.1,
+        "mean": 0.1937
+      },
+      "6": {
+        "n": 5083,
+        "share": 66.3,
+        "mean": 0.0227
+      },
+      "7": {
+        "n": 254,
+        "share": 3.3,
+        "mean": 0.0749
+      },
+      "8": {
+        "n": 167,
+        "share": 2.2,
+        "mean": 0.1455
+      },
+      "9": {
+        "n": 952,
+        "share": 12.4,
+        "mean": 0.0246
+      }
+    }
+  },
+  "sample": {
+    "n": 24838,
+    "by_country": {
+      "Nigeria 2023": 9547,
+      "Tanzania 2020": 7620,
+      "Uganda 2019": 7671
+    },
+    "coded_4digit": 17720,
+    "by_reason": {
+      "coded": 17587,
+      "own_use_farmer_family_use": 6372,
+      "own_use_farmer_market_oriented": 740,
+      "tasco_map_direct": 133,
+      "tasco_map_submajor": 6
+    }
+  },
+  "ethiopia_resident": {
+    "n": 1989,
+    "mean_unw": 0.2161,
+    "mean_wtd": 0.19,
+    "ci": {
+      "mean": 0.2161,
+      "se": 0.0036,
+      "lo": 0.2091,
+      "hi": 0.2231,
+      "n": 1989
+    },
+    "ci_wtd": {
+      "mean": 0.19,
+      "se": 0.0062,
+      "lo": 0.1779,
+      "hi": 0.2022,
+      "n": 1989
+    },
+    "informal": 0.371,
+    "informal_wtd": 0.4585,
+    "ci_formal": {
+      "mean": 0.2674,
+      "se": 0.0045,
+      "lo": 0.2585,
+      "hi": 0.2762,
+      "n": 1251
+    },
+    "ci_informal": {
+      "mean": 0.1292,
+      "se": 0.0031,
+      "lo": 0.1231,
+      "hi": 0.1354,
+      "n": 738
+    },
+    "by_major88": {
+      "1": {
+        "n": 55,
+        "share": 2.8,
+        "mean": 0.3207
+      },
+      "2": {
+        "n": 312,
+        "share": 15.7,
+        "mean": 0.3151
+      },
+      "3": {
+        "n": 194,
+        "share": 9.8,
+        "mean": 0.2904
+      },
+      "4": {
+        "n": 275,
+        "share": 13.8,
+        "mean": 0.4959
+      },
+      "5": {
+        "n": 319,
+        "share": 16.0,
+        "mean": 0.131
+      },
+      "6": {
+        "n": 82,
+        "share": 4.1,
+        "mean": 0.0754
+      },
+      "7": {
+        "n": 101,
+        "share": 5.1,
+        "mean": 0.0794
+      },
+      "8": {
+        "n": 91,
+        "share": 4.6,
+        "mean": 0.1488
+      },
+      "9": {
+        "n": 560,
+        "share": 28.2,
+        "mean": 0.0923
+      }
+    }
+  }
+}

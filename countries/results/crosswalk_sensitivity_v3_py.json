@@ -1,0 +1,50 @@
+{
+  "mean": {
+    "wage_formal": 0.2133,
+    "wage_informal": 0.1039,
+    "formal_minus_informal": 0.1095
+  },
+  "median": {
+    "wage_formal": 0.2114,
+    "wage_informal": 0.0984,
+    "formal_minus_informal": 0.113
+  },
+  "min": {
+    "wage_formal": 0.1598,
+    "wage_informal": 0.0658,
+    "formal_minus_informal": 0.094
+  },
+  "max": {
+    "wage_formal": 0.275,
+    "wage_informal": 0.1551,
+    "formal_minus_informal": 0.1199
+  },
+  "emp_weighted": {
+    "wage_formal": 0.2062,
+    "wage_informal": 0.102,
+    "formal_minus_informal": 0.1041
+  },
+  "draws": {
+    "wage_formal": {
+      "mean": 0.2133,
+      "sd": 0.008,
+      "p025": 0.1979,
+      "p975": 0.2285
+    },
+    "wage_informal": {
+      "mean": 0.1038,
+      "sd": 0.0075,
+      "p025": 0.09,
+      "p975": 0.1197
+    },
+    "formal_minus_informal": {
+      "mean": 0.1095,
+      "sd": 0.0072,
+      "p025": 0.0956,
+      "p975": 0.1238
+    }
+  },
+  "draws_share_formal_above_informal": 1.0,
+  "n_formal": 1801,
+  "n_informal": 2466
+}

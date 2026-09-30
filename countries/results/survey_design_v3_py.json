@@ -1,0 +1,136 @@
+{
+  "group_means_ci_v3_additions": {
+    "wage_formal_wtd": {
+      "mean": 0.2274,
+      "se": 0.009,
+      "lo": 0.2097,
+      "hi": 0.2451,
+      "n": 1801
+    },
+    "wage_informal_wtd": {
+      "mean": 0.1105,
+      "se": 0.0044,
+      "lo": 0.102,
+      "hi": 0.1191,
+      "n": 2466
+    },
+    "urban_wtd": {
+      "mean": 0.1324,
+      "se": 0.0039,
+      "lo": 0.1247,
+      "hi": 0.14,
+      "n": 6322
+    },
+    "rural_wtd": {
+      "mean": 0.0715,
+      "se": 0.0022,
+      "lo": 0.0673,
+      "hi": 0.0758,
+      "n": 18516
+    },
+    "male_wtd": {
+      "mean": 0.0946,
+      "se": 0.0027,
+      "lo": 0.0893,
+      "hi": 0.1,
+      "n": 13146
+    },
+    "female_wtd": {
+      "mean": 0.0856,
+      "se": 0.002,
+      "lo": 0.0816,
+      "hi": 0.0896,
+      "n": 11692
+    },
+    "major_1_wtd": {
+      "mean": 0.2015,
+      "se": 0.0047,
+      "lo": 0.1924,
+      "hi": 0.2107,
+      "n": 1202
+    },
+    "major_2_wtd": {
+      "mean": 0.1634,
+      "se": 0.0071,
+      "lo": 0.1495,
+      "hi": 0.1773,
+      "n": 1143
+    },
+    "major_3_wtd": {
+      "mean": 0.3562,
+      "se": 0.0145,
+      "lo": 0.3278,
+      "hi": 0.3846,
+      "n": 409
+    },
+    "major_4_wtd": {
+      "mean": 0.6058,
+      "se": 0.018,
+      "lo": 0.5704,
+      "hi": 0.6411,
+      "n": 141
+    },
+    "major_5_wtd": {
+      "mean": 0.124,
+      "se": 0.0026,
+      "lo": 0.119,
+      "hi": 0.1291,
+      "n": 2854
+    },
+    "major_6_wtd": {
+      "mean": 0.039,
+      "se": 0.001,
+      "lo": 0.037,
+      "hi": 0.041,
+      "n": 14359
+    },
+    "major_7_wtd": {
+      "mean": 0.0354,
+      "se": 0.0026,
+      "lo": 0.0303,
+      "hi": 0.0405,
+      "n": 1235
+    },
+    "major_8_wtd": {
+      "mean": 0.1391,
+      "se": 0.0048,
+      "lo": 0.1297,
+      "hi": 0.1485,
+      "n": 837
+    },
+    "major_9_wtd": {
+      "mean": 0.0354,
+      "se": 0.0018,
+      "lo": 0.0319,
+      "hi": 0.0389,
+      "n": 2658
+    }
+  },
+  "weight_totals": {
+    "Nigeria 2023": {
+      "sum_weight": 83820444.0,
+      "share_of_pooled": 67.8,
+      "mean_weight": 8780.0,
+      "n": 9547
+    },
+    "Tanzania 2020": {
+      "sum_weight": 20850794.0,
+      "share_of_pooled": 16.9,
+      "mean_weight": 2736.0,
+      "n": 7620
+    },
+    "Uganda 2019": {
+      "sum_weight": 19034999.0,
+      "share_of_pooled": 15.4,
+      "mean_weight": 2481.0,
+      "n": 7671
+    },
+    "pooled": {
+      "sum_weight": 123706237.0,
+      "share_of_pooled": 100.0,
+      "n": 24838
+    }
+  },
+  "wage_formal_minus_informal_wtd": 0.1169,
+  "weight_share_weighted_avg_check": 0.0904
+}

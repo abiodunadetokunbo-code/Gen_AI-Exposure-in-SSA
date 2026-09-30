@@ -1,0 +1,27 @@
+{
+ "indicator": "EMP_TEMP_SEX_OCU_NB_A (ILOSTAT dataflow DF_EMP_TEMP_SEX_OCU_NB, version 1.0)",
+ "description": "Employment by sex and occupation, annual, thousands; sex = total. High-income benchmark countries for the composition counterfactual (plan review3, step 6 / decision D3), fetched by the same route as ilostat/provenance.json's African files but written to a separate directory so ilostat/raw/ and macro_ilostat_v2.py's results stay byte-identical.",
+ "url_template": "https://sdmx.ilo.org/rest/data/ILO,DF_EMP_TEMP_SEX_OCU_NB,1.0/{ISO3}.A..SEX_T.?format=csvfile",
+ "download_date": "2026-09-20",
+ "note": "Three countries fetched (GBR, DEU, FRA), all pass the ISCO-08 coverage check (all nine major groups present, no ISCO-88-only fallback needed) and all carry a low not-classified share: GBR 0.10%, DEU 0.51%, FRA 1.02% (all far under the 20% robustness cut macro_ilostat_v2.py uses). Latest year for all three is 2025. Headline benchmark: GBR (lowest x_pct, largest LFS). DEU and FRA reported as the range.",
+ "files": {
+  "GBR.csv": {
+   "sha256": "fbe319ba86273bd167e9cd3b9721c19e84cbe6367f45dc88a11502c0c8c42de7",
+   "n_bytes": 101605,
+   "latest_year": 2025,
+   "x_pct": 0.10
+  },
+  "DEU.csv": {
+   "sha256": "b0f8a57755ed1b6936451b9c551e3e030d0218be0b7dfaa55dee63303c510a3f",
+   "n_bytes": 103492,
+   "latest_year": 2025,
+   "x_pct": 0.51
+  },
+  "FRA.csv": {
+   "sha256": "b9d14da1aaf7898a94c192cb10eb77c318788956506d7eac0499b7b4b251eab7",
+   "n_bytes": 103521,
+   "latest_year": 2025,
+   "x_pct": 1.02
+  }
+ }
+}

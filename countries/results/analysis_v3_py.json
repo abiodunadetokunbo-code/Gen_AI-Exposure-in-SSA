@@ -1,0 +1,27 @@
+{
+  "dropped_rows": [
+    {
+      "hhid_c": "NGA129104",
+      "isco08": 2132.0,
+      "auto_genai": 0.115256,
+      "weight": 25674.134
+    },
+    {
+      "hhid_c": "NGA150019",
+      "isco08": 1420.0,
+      "auto_genai": 0.189942,
+      "weight": 5716.592
+    }
+  ],
+  "pooled_mean_baseline": 0.0716,
+  "pooled_mean_drop2": 0.0716,
+  "pooled_mean_wtd_baseline": 0.0904,
+  "pooled_mean_wtd_drop2": 0.0904,
+  "nga_mean_baseline": 0.1021,
+  "nga_mean_drop2": 0.1021,
+  "nga_mean_wtd_baseline": 0.1071,
+  "nga_mean_wtd_drop2": 0.1071,
+  "n_baseline": 24838,
+  "n_drop2": 24836,
+  "moves_at_3dp": false
+}

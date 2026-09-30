@@ -1,0 +1,667 @@
+{
+  "n_countries": 32,
+  "world": {
+    "share_exposed": 0.4713,
+    "ai_route_share": 0.3134,
+    "genai_route_share": 0.1555,
+    "non_ai_exposed": 0.159
+  },
+  "africa": {
+    "share_exposed": {
+      "mean": 0.2524,
+      "median": 0.2416,
+      "min": 0.0333,
+      "max": 0.5105
+    },
+    "ai_route_share": {
+      "mean": 0.1281,
+      "median": 0.1069,
+      "min": 0.0081,
+      "max": 0.3447
+    },
+    "genai_route_share": {
+      "mean": 0.075,
+      "median": 0.0683,
+      "min": 0.0061,
+      "max": 0.1672
+    },
+    "non_ai_exposed": {
+      "mean": 0.1243,
+      "median": 0.1323,
+      "min": 0.0252,
+      "max": 0.1856
+    }
+  },
+  "ai_part_of_exposed_africa": 0.4578,
+  "countries": {
+    "AGO": {
+      "share_exposed": 0.2916,
+      "ai_route_share": 0.131,
+      "genai_route_share": 0.0764,
+      "non_ai_exposed": 0.1607
+    },
+    "BDI": {
+      "share_exposed": 0.0943,
+      "ai_route_share": 0.0323,
+      "genai_route_share": 0.0237,
+      "non_ai_exposed": 0.0619
+    },
+    "BEN": {
+      "share_exposed": 0.2462,
+      "ai_route_share": 0.1134,
+      "genai_route_share": 0.076,
+      "non_ai_exposed": 0.1328
+    },
+    "BFA": {
+      "share_exposed": 0.1428,
+      "ai_route_share": 0.0568,
+      "genai_route_share": 0.0391,
+      "non_ai_exposed": 0.086
+    },
+    "CIV": {
+      "share_exposed": 0.2945,
+      "ai_route_share": 0.1418,
+      "genai_route_share": 0.0837,
+      "non_ai_exposed": 0.1527
+    },
+    "CMR": {
+      "share_exposed": 0.2453,
+      "ai_route_share": 0.1078,
+      "genai_route_share": 0.0705,
+      "non_ai_exposed": 0.1375
+    },
+    "COD": {
+      "share_exposed": 0.1078,
+      "ai_route_share": 0.0382,
+      "genai_route_share": 0.0282,
+      "non_ai_exposed": 0.0696
+    },
+    "DZA": {
+      "share_exposed": 0.4332,
+      "ai_route_share": 0.2476,
+      "genai_route_share": 0.1289,
+      "non_ai_exposed": 0.1856
+    },
+    "EGY": {
+      "share_exposed": 0.4633,
+      "ai_route_share": 0.2966,
+      "genai_route_share": 0.1489,
+      "non_ai_exposed": 0.1667
+    },
+    "ETH": {
+      "share_exposed": 0.2208,
+      "ai_route_share": 0.0911,
+      "genai_route_share": 0.0574,
+      "non_ai_exposed": 0.1298
+    },
+    "GHA": {
+      "share_exposed": 0.2868,
+      "ai_route_share": 0.1453,
+      "genai_route_share": 0.0902,
+      "non_ai_exposed": 0.1415
+    },
+    "GIN": {
+      "share_exposed": 0.136,
+      "ai_route_share": 0.0483,
+      "genai_route_share": 0.0331,
+      "non_ai_exposed": 0.0878
+    },
+    "KEN": {
+      "share_exposed": 0.3696,
+      "ai_route_share": 0.2177,
+      "genai_route_share": 0.1216,
+      "non_ai_exposed": 0.1518
+    },
+    "MAR": {
+      "share_exposed": 0.4423,
+      "ai_route_share": 0.2729,
+      "genai_route_share": 0.1375,
+      "non_ai_exposed": 0.1694
+    },
+    "MDG": {
+      "share_exposed": 0.1751,
+      "ai_route_share": 0.0696,
+      "genai_route_share": 0.0484,
+      "non_ai_exposed": 0.1055
+    },
+    "MLI": {
+      "share_exposed": 0.1403,
+      "ai_route_share": 0.0471,
+      "genai_route_share": 0.0329,
+      "non_ai_exposed": 0.0932
+    },
+    "MOZ": {
+      "share_exposed": 0.2013,
+      "ai_route_share": 0.0786,
+      "genai_route_share": 0.0502,
+      "non_ai_exposed": 0.1227
+    },
+    "MWI": {
+      "share_exposed": 0.1673,
+      "ai_route_share": 0.0682,
+      "genai_route_share": 0.0489,
+      "non_ai_exposed": 0.0991
+    },
+    "NER": {
+      "share_exposed": 0.0985,
+      "ai_route_share": 0.03,
+      "genai_route_share": 0.0206,
+      "non_ai_exposed": 0.0686
+    },
+    "NGA": {
+      "share_exposed": 0.3327,
+      "ai_route_share": 0.186,
+      "genai_route_share": 0.1073,
+      "non_ai_exposed": 0.1467
+    },
+    "RWA": {
+      "share_exposed": 0.3006,
+      "ai_route_share": 0.1574,
+      "genai_route_share": 0.0987,
+      "non_ai_exposed": 0.1432
+    },
+    "SDN": {
+      "share_exposed": 0.1785,
+      "ai_route_share": 0.0695,
+      "genai_route_share": 0.0459,
+      "non_ai_exposed": 0.109
+    },
+    "SEN": {
+      "share_exposed": 0.3254,
+      "ai_route_share": 0.1807,
+      "genai_route_share": 0.1066,
+      "non_ai_exposed": 0.1448
+    },
+    "SSD": {
+      "share_exposed": 0.0333,
+      "ai_route_share": 0.0081,
+      "genai_route_share": 0.0061,
+      "non_ai_exposed": 0.0252
+    },
+    "TCD": {
+      "share_exposed": 0.0985,
+      "ai_route_share": 0.0331,
+      "genai_route_share": 0.0239,
+      "non_ai_exposed": 0.0654
+    },
+    "TGO": {
+      "share_exposed": 0.2167,
+      "ai_route_share": 0.0917,
+      "genai_route_share": 0.06,
+      "non_ai_exposed": 0.125
+    },
+    "TUN": {
+      "share_exposed": 0.4929,
+      "ai_route_share": 0.3152,
+      "genai_route_share": 0.1672,
+      "non_ai_exposed": 0.1777
+    },
+    "TZA": {
+      "share_exposed": 0.2379,
+      "ai_route_share": 0.106,
+      "genai_route_share": 0.066,
+      "non_ai_exposed": 0.1319
+    },
+    "UGA": {
+      "share_exposed": 0.214,
+      "ai_route_share": 0.0961,
+      "genai_route_share": 0.0637,
+      "non_ai_exposed": 0.1179
+    },
+    "ZAF": {
+      "share_exposed": 0.5105,
+      "ai_route_share": 0.3447,
+      "genai_route_share": 0.1656,
+      "non_ai_exposed": 0.1657
+    },
+    "ZMB": {
+      "share_exposed": 0.2677,
+      "ai_route_share": 0.1236,
+      "genai_route_share": 0.0761,
+      "non_ai_exposed": 0.1441
+    },
+    "ZWE": {
+      "share_exposed": 0.3127,
+      "ai_route_share": 0.1546,
+      "genai_route_share": 0.0972,
+      "non_ai_exposed": 0.1581
+    }
+  },
+  "corr": {
+    "share_exposed|exp_unit": {
+      "n": 28,
+      "pearson": 0.59,
+      "spearman": 0.5222
+    },
+    "share_exposed|exp_lsms": {
+      "n": 28,
+      "pearson": 0.6907,
+      "spearman": 0.586
+    },
+    "share_exposed|exp_lsms_ex": {
+      "n": 28,
+      "pearson": 0.6547,
+      "spearman": 0.519
+    },
+    "ai_route_share|share_exposed": {
+      "n": 32,
+      "pearson": 0.9867,
+      "spearman": 0.9957
+    },
+    "ai_route_share|exp_unit": {
+      "n": 28,
+      "pearson": 0.608,
+      "spearman": 0.5183
+    },
+    "ai_route_share|exp_lsms": {
+      "n": 28,
+      "pearson": 0.7161,
+      "spearman": 0.584
+    },
+    "ai_route_share|exp_lsms_ex": {
+      "n": 28,
+      "pearson": 0.6829,
+      "spearman": 0.5057
+    },
+    "genai_route_share|share_exposed": {
+      "n": 32,
+      "pearson": 0.9933,
+      "spearman": 0.9942
+    },
+    "genai_route_share|exp_unit": {
+      "n": 28,
+      "pearson": 0.5943,
+      "spearman": 0.5359
+    },
+    "genai_route_share|exp_lsms": {
+      "n": 28,
+      "pearson": 0.6942,
+      "spearman": 0.6015
+    },
+    "genai_route_share|exp_lsms_ex": {
+      "n": 28,
+      "pearson": 0.6551,
+      "spearman": 0.5222
+    },
+    "non_ai_exposed|share_exposed": {
+      "n": 32,
+      "pearson": 0.9272,
+      "spearman": 0.9753
+    },
+    "non_ai_exposed|exp_unit": {
+      "n": 28,
+      "pearson": 0.493,
+      "spearman": 0.5216
+    },
+    "non_ai_exposed|exp_lsms": {
+      "n": 28,
+      "pearson": 0.5675,
+      "spearman": 0.572
+    },
+    "non_ai_exposed|exp_lsms_ex": {
+      "n": 28,
+      "pearson": 0.5286,
+      "spearman": 0.5359
+    }
+  },
+  "reg_share_exposed": {
+    "(1) informality": {
+      "Intercept": {
+        "b": 0.7857,
+        "se": 0.0658
+      },
+      "informal_s": {
+        "b": -0.6166,
+        "se": 0.0769
+      },
+      "_n": 28,
+      "_r2": 0.656
+    },
+    "(2) agri self-emp": {
+      "Intercept": {
+        "b": 0.4498,
+        "se": 0.0325
+      },
+      "agri_s": {
+        "b": -0.4482,
+        "se": 0.0579
+      },
+      "_n": 30,
+      "_r2": 0.63
+    },
+    "(3) log GDPpc": {
+      "Intercept": {
+        "b": -0.8821,
+        "se": 0.1067
+      },
+      "lgdp": {
+        "b": 0.1385,
+        "se": 0.0131
+      },
+      "_n": 31,
+      "_r2": 0.76
+    },
+    "(4) informality + log GDPpc": {
+      "Intercept": {
+        "b": -0.2377,
+        "se": 0.16
+      },
+      "informal_s": {
+        "b": -0.3047,
+        "se": 0.0647
+      },
+      "lgdp": {
+        "b": 0.0922,
+        "se": 0.0139
+      },
+      "_n": 28,
+      "_r2": 0.837
+    },
+    "(5) agri + log GDPpc": {
+      "Intercept": {
+        "b": -0.4631,
+        "se": 0.1812
+      },
+      "agri_s": {
+        "b": -0.2005,
+        "se": 0.0719
+      },
+      "lgdp": {
+        "b": 0.0982,
+        "se": 0.0188
+      },
+      "_n": 30,
+      "_r2": 0.801
+    },
+    "(6) all three": {
+      "Intercept": {
+        "b": -0.1158,
+        "se": 0.159
+      },
+      "informal_s": {
+        "b": -0.2478,
+        "se": 0.0676
+      },
+      "agri_s": {
+        "b": -0.1128,
+        "se": 0.0738
+      },
+      "lgdp": {
+        "b": 0.0773,
+        "se": 0.0154
+      },
+      "_n": 28,
+      "_r2": 0.855
+    }
+  },
+  "reg_ai_route_share": {
+    "(1) informality": {
+      "Intercept": {
+        "b": 0.5439,
+        "se": 0.0403
+      },
+      "informal_s": {
+        "b": -0.4823,
+        "se": 0.046
+      },
+      "_n": 28,
+      "_r2": 0.729
+    },
+    "(2) agri self-emp": {
+      "Intercept": {
+        "b": 0.2766,
+        "se": 0.0271
+      },
+      "agri_s": {
+        "b": -0.3394,
+        "se": 0.0474
+      },
+      "_n": 30,
+      "_r2": 0.655
+    },
+    "(3) log GDPpc": {
+      "Intercept": {
+        "b": -0.6916,
+        "se": 0.0971
+      },
+      "lgdp": {
+        "b": 0.0999,
+        "se": 0.0122
+      },
+      "_n": 31,
+      "_r2": 0.728
+    },
+    "(4) informality + log GDPpc": {
+      "Intercept": {
+        "b": -0.0909,
+        "se": 0.136
+      },
+      "informal_s": {
+        "b": -0.2888,
+        "se": 0.0507
+      },
+      "lgdp": {
+        "b": 0.0572,
+        "se": 0.0119
+      },
+      "_n": 28,
+      "_r2": 0.856
+    },
+    "(5) agri + log GDPpc": {
+      "Intercept": {
+        "b": -0.3339,
+        "se": 0.1433
+      },
+      "agri_s": {
+        "b": -0.1737,
+        "se": 0.0539
+      },
+      "lgdp": {
+        "b": 0.0657,
+        "se": 0.0153
+      },
+      "_n": 30,
+      "_r2": 0.794
+    },
+    "(6) all three": {
+      "Intercept": {
+        "b": 0.0093,
+        "se": 0.1193
+      },
+      "informal_s": {
+        "b": -0.242,
+        "se": 0.0493
+      },
+      "agri_s": {
+        "b": -0.0927,
+        "se": 0.0484
+      },
+      "lgdp": {
+        "b": 0.045,
+        "se": 0.0115
+      },
+      "_n": 28,
+      "_r2": 0.878
+    }
+  },
+  "reg_genai_route_share": {
+    "(1) informality": {
+      "Intercept": {
+        "b": 0.2651,
+        "se": 0.025
+      },
+      "informal_s": {
+        "b": -0.2195,
+        "se": 0.0288
+      },
+      "_n": 28,
+      "_r2": 0.646
+    },
+    "(2) agri self-emp": {
+      "Intercept": {
+        "b": 0.1472,
+        "se": 0.0112
+      },
+      "agri_s": {
+        "b": -0.1638,
+        "se": 0.0195
+      },
+      "_n": 30,
+      "_r2": 0.663
+    },
+    "(3) log GDPpc": {
+      "Intercept": {
+        "b": -0.312,
+        "se": 0.0429
+      },
+      "lgdp": {
+        "b": 0.0472,
+        "se": 0.0053
+      },
+      "_n": 31,
+      "_r2": 0.712
+    },
+    "(4) informality + log GDPpc": {
+      "Intercept": {
+        "b": -0.0745,
+        "se": 0.0763
+      },
+      "informal_s": {
+        "b": -0.116,
+        "se": 0.0308
+      },
+      "lgdp": {
+        "b": 0.0306,
+        "se": 0.0065
+      },
+      "_n": 28,
+      "_r2": 0.802
+    },
+    "(5) agri + log GDPpc": {
+      "Intercept": {
+        "b": -0.1329,
+        "se": 0.0731
+      },
+      "agri_s": {
+        "b": -0.0878,
+        "se": 0.0275
+      },
+      "lgdp": {
+        "b": 0.0301,
+        "se": 0.0076
+      },
+      "_n": 30,
+      "_r2": 0.791
+    },
+    "(6) all three": {
+      "Intercept": {
+        "b": -0.0117,
+        "se": 0.0682
+      },
+      "informal_s": {
+        "b": -0.0866,
+        "se": 0.0287
+      },
+      "agri_s": {
+        "b": -0.0582,
+        "se": 0.0281
+      },
+      "lgdp": {
+        "b": 0.0229,
+        "se": 0.0065
+      },
+      "_n": 28,
+      "_r2": 0.839
+    }
+  },
+  "reg_non_ai_exposed": {
+    "(1) informality": {
+      "Intercept": {
+        "b": 0.2417,
+        "se": 0.0281
+      },
+      "informal_s": {
+        "b": -0.1343,
+        "se": 0.0336
+      },
+      "_n": 28,
+      "_r2": 0.363
+    },
+    "(2) agri self-emp": {
+      "Intercept": {
+        "b": 0.1732,
+        "se": 0.0082
+      },
+      "agri_s": {
+        "b": -0.1088,
+        "se": 0.019
+      },
+      "_n": 30,
+      "_r2": 0.445
+    },
+    "(3) log GDPpc": {
+      "Intercept": {
+        "b": -0.1905,
+        "se": 0.034
+      },
+      "lgdp": {
+        "b": 0.0386,
+        "se": 0.0039
+      },
+      "_n": 31,
+      "_r2": 0.69
+    },
+    "(4) informality + log GDPpc": {
+      "Intercept": {
+        "b": -0.1468,
+        "se": 0.0668
+      },
+      "informal_s": {
+        "b": -0.0159,
+        "se": 0.0282
+      },
+      "lgdp": {
+        "b": 0.035,
+        "se": 0.0058
+      },
+      "_n": 28,
+      "_r2": 0.669
+    },
+    "(5) agri + log GDPpc": {
+      "Intercept": {
+        "b": -0.1292,
+        "se": 0.0639
+      },
+      "agri_s": {
+        "b": -0.0268,
+        "se": 0.0275
+      },
+      "lgdp": {
+        "b": 0.0325,
+        "se": 0.0066
+      },
+      "_n": 30,
+      "_r2": 0.671
+    },
+    "(6) all three": {
+      "Intercept": {
+        "b": -0.1251,
+        "se": 0.0736
+      },
+      "informal_s": {
+        "b": -0.0057,
+        "se": 0.0336
+      },
+      "agri_s": {
+        "b": -0.0201,
+        "se": 0.0324
+      },
+      "lgdp": {
+        "b": 0.0324,
+        "se": 0.0068
+      },
+      "_n": 28,
+      "_r2": 0.676
+    }
+  }
+}

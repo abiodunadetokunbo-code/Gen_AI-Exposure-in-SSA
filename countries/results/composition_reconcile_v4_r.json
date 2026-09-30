@@ -1,0 +1,90 @@
+{
+  "headline_vector": "exp_lsms",
+  "survey_year": {
+    "NGA": 2023,
+    "TZA": 2020,
+    "UGA": 2019
+  },
+  "ilostat_year": {
+    "NGA": 2024,
+    "TZA": 2024,
+    "UGA": 2021
+  },
+  "country_weight_share": {
+    "NGA": 0.6776,
+    "TZA": 0.1686,
+    "UGA": 0.1539
+  },
+  "score_vector": {
+    "1": 0.2015,
+    "2": 0.1634,
+    "3": 0.3562,
+    "4": 0.6058,
+    "5": 0.124,
+    "6": 0.039,
+    "7": 0.0354,
+    "8": 0.1391,
+    "9": 0.0354
+  },
+  "pooled_share_ilostat": {
+    "1": 0.0069,
+    "2": 0.0383,
+    "3": 0.0206,
+    "4": 0.0076,
+    "5": 0.233,
+    "6": 0.4361,
+    "7": 0.1055,
+    "8": 0.0481,
+    "9": 0.1038
+  },
+  "pooled_share_lsms": {
+    "1": 0.0823,
+    "2": 0.0603,
+    "3": 0.0255,
+    "4": 0.0081,
+    "5": 0.1578,
+    "6": 0.4561,
+    "7": 0.0704,
+    "8": 0.0497,
+    "9": 0.0896
+  },
+  "pooled_ilostat_by_vector": {
+    "exp_unit": 0.1129,
+    "exp_lsms": 0.0796,
+    "exp_lsms_ex": 0.0877
+  },
+  "pooled_ilostat": 0.0796,
+  "pooled_lsms_direct": 0.0904,
+  "pooled_lsms_via_major_groups": 0.0904,
+  "aggregation_residual": 0,
+  "difference": -0.0108,
+  "difference_by_group": {
+    "1": -0.0152,
+    "2": -0.0036,
+    "3": -0.0017,
+    "4": -0.0003,
+    "5": 0.0093,
+    "6": -0.0008,
+    "7": 0.0012,
+    "8": -0.0002,
+    "9": 0.0005
+  },
+  "largest_group": 1,
+  "largest_group_name": "Managers",
+  "largest_group_share_of_difference": 1.4072,
+  "manager_share_ilostat_pct": 0.7,
+  "manager_share_lsms_pct": 8.2,
+  "manager_term": -0.0152,
+  "service_share_ilostat_pct": 23.3,
+  "service_share_lsms_pct": 15.8,
+  "service_term": 0.0093,
+  "major1_n": 1202,
+  "major1_status_share": {
+    "selfemp_nonag": 0.8911,
+    "wage_nonag": 0.1089
+  },
+  "major1_selfemp_nonag_pct": 89.1,
+  "major1_top_isco": 1420,
+  "major1_top_isco_pct": 72.4,
+  "n_workers": 24838
+}

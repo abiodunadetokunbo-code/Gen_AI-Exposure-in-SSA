@@ -1,0 +1,50 @@
+# =============================================================================
+# atlas_exposure_lookup.csv
+# Treatment variable + baseline moderators for the 37-country Africa sample.
+# PROVENANCE: values transcribed from the paper's Table A (tab:country_list),
+#   which reports the Global Automation Atlas (Garg, Crosta & Baier 2026)
+#   country-level substitution-exposure index (subst_exp_c), plus 2021
+#   internet penetration and 2021 informal-employment rate.
+# NOTE: subst_exp_c here is the Atlas-derived index AS REPORTED IN THE PAPER.
+#   A full reconstruction would re-aggregate Atlas task x occupation scores with
+#   ISCO-08 employment weights; that raw Atlas file was not retrievable at build
+#   time (automationatlas.org/data and the GitHub repo paths returned 404).
+# iso3,country,income_group,subst_exp_c,internet_2021,informal_2021
+iso3,country,income_group,subst_exp_c,internet_2021,informal_2021
+DZA,Algeria,Upper-middle,0.374,63.8,47.3
+AGO,Angola,Lower-middle,0.261,35.8,83.2
+BEN,Benin,Lower-middle,0.229,29.6,87.6
+BWA,Botswana,Upper-middle,0.341,67.2,35.4
+BFA,Burkina Faso,Low,0.163,19.8,91.4
+BDI,Burundi,Low,0.139,11.4,93.1
+CMR,Cameroon,Lower-middle,0.243,34.1,84.3
+TCD,Chad,Low,0.147,13.4,92.4
+CIV,Cote dIvoire,Lower-middle,0.231,42.3,87.7
+COD,DR Congo,Low,0.148,17.9,93.2
+EGY,Egypt,Lower-middle,0.389,71.9,54.1
+ETH,Ethiopia,Low,0.182,24.1,90.2
+GAB,Gabon,Upper-middle,0.319,69.7,40.8
+GHA,Ghana,Lower-middle,0.267,58.3,82.1
+GIN,Guinea,Low,0.172,22.7,90.8
+KEN,Kenya,Lower-middle,0.314,42.4,83.1
+LBR,Liberia,Low,0.161,17.8,92.6
+MDG,Madagascar,Low,0.152,14.4,92.6
+MWI,Malawi,Low,0.158,13.2,91.3
+MLI,Mali,Low,0.143,16.2,92.8
+MUS,Mauritius,Upper-middle,0.441,74.1,24.6
+MAR,Morocco,Lower-middle,0.382,88.1,57.9
+MOZ,Mozambique,Low,0.164,18.4,89.4
+NAM,Namibia,Upper-middle,0.328,53.8,44.7
+NER,Niger,Low,0.139,9.1,92.4
+NGA,Nigeria,Lower-middle,0.274,35.6,78.3
+RWA,Rwanda,Low,0.201,27.9,87.4
+SEN,Senegal,Lower-middle,0.238,46.8,86.2
+ZAF,South Africa,Upper-middle,0.487,72.1,33.2
+SSD,South Sudan,Low,0.128,9.4,93.8
+SDN,Sudan,Low,0.166,28.6,89.8
+TZA,Tanzania,Low,0.189,28.3,89.7
+TGO,Togo,Low,0.198,31.8,88.7
+TUN,Tunisia,Upper-middle,0.401,66.3,41.8
+UGA,Uganda,Low,0.193,23.8,89.1
+ZMB,Zambia,Lower-middle,0.247,41.2,83.6
+ZWE,Zimbabwe,Lower-middle,0.241,38.4,87.2

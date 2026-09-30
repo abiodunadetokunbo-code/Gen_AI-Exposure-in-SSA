@@ -1,8 +1,14 @@
 """Headline descriptive statistics for the SSA AI-exposure paper (Python).
-Writes results/desc_py.json for the R<->Python cross-check."""
+Writes archive_v1/results/desc_py.json for the R<->Python cross-check.
+
+NOTE (2026-09-20, plan step 12): this script reproduces the PRE-REVISION (v1)
+numbers and is kept as the record of what the first submission reported. It
+reads and writes archive_v1/, so it cannot touch the live revision-2 files.
+The live replacement is analysis_v2.py / .R, run by run_all.py.
+"""
 import json, os, numpy as np, pandas as pd
 os.makedirs("results", exist_ok=True)
-P = pd.read_csv("harmonized_workers.csv", low_memory=False)
+P = pd.read_csv("archive_v1/harmonized_workers.csv", low_memory=False)
 A = "auto_genai"
 
 def m(s): return round(float(np.mean(s)), 6)
@@ -45,6 +51,6 @@ out["top10pct_share_of_exposure"] = round(float(top10), 6)
 # urban gap regression-free: mean diff
 out["urban_minus_rural"] = round(out["mean_urban"] - out["mean_rural"], 6)
 
-with open("results/desc_py.json", "w") as f: json.dump(out, f, indent=2)
+with open("archive_v1/results/desc_py.json", "w") as f: json.dump(out, f, indent=2)
 for k, v in out.items():
     print(f"{k}: {v}" if not isinstance(v, dict) else f"{k}: {{...{len(v)}...}}")

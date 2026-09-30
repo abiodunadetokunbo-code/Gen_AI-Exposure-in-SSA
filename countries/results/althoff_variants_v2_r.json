@@ -1,0 +1,335 @@
+{
+  "canonical_moderate_qwen": {
+    "isco_mean": 0.2246,
+    "corr_pearson": 1,
+    "corr_spearman": 1,
+    "pooled": 0.0716,
+    "pooled_wtd": 0.0904,
+    "country": {
+      "Nigeria 2023": 0.1021,
+      "Tanzania 2020": 0.05,
+      "Uganda 2019": 0.0553
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.1071,
+      "Tanzania 2020": 0.0436,
+      "Uganda 2019": 0.0681
+    },
+    "status": {
+      "agriculture": 0.0293,
+      "selfemp_nonag": 0.1338,
+      "wage_nonag": 0.1501
+    },
+    "wage_minus_self": 0.0163,
+    "major": {
+      "1": 0.2094,
+      "2": 0.1606,
+      "3": 0.3633,
+      "4": 0.6146,
+      "5": 0.1423,
+      "6": 0.031,
+      "7": 0.0508,
+      "8": 0.1437,
+      "9": 0.028
+    },
+    "top_major": 4,
+    "clerical_over_agri": 19.83,
+    "near_zero": 57.5
+  },
+  "moderate_gptoss": {
+    "isco_mean": 0.3498,
+    "corr_pearson": 0.8643,
+    "corr_spearman": 0.8396,
+    "pooled": 0.2393,
+    "pooled_wtd": 0.2557,
+    "country": {
+      "Nigeria 2023": 0.2658,
+      "Tanzania 2020": 0.2159,
+      "Uganda 2019": 0.2297
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.2706,
+      "Tanzania 2020": 0.2108,
+      "Uganda 2019": 0.239
+    },
+    "status": {
+      "agriculture": 0.2149,
+      "selfemp_nonag": 0.283,
+      "wage_nonag": 0.2751
+    },
+    "wage_minus_self": -0.0079,
+    "major": {
+      "1": 0.3555,
+      "2": 0.2241,
+      "3": 0.4809,
+      "4": 0.6857,
+      "5": 0.3145,
+      "6": 0.2176,
+      "7": 0.1347,
+      "8": 0.4216,
+      "9": 0.1606
+    },
+    "top_major": 4,
+    "clerical_over_agri": 3.15,
+    "near_zero": 3.1
+  },
+  "slow_qwen": {
+    "isco_mean": 0.1376,
+    "corr_pearson": 0.9293,
+    "corr_spearman": 0.9428,
+    "pooled": 0.0352,
+    "pooled_wtd": 0.0447,
+    "country": {
+      "Nigeria 2023": 0.0515,
+      "Tanzania 2020": 0.0206,
+      "Uganda 2019": 0.0295
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.0533,
+      "Tanzania 2020": 0.0171,
+      "Uganda 2019": 0.0372
+    },
+    "status": {
+      "agriculture": 0.0113,
+      "selfemp_nonag": 0.066,
+      "wage_nonag": 0.0846
+    },
+    "wage_minus_self": 0.0186,
+    "major": {
+      "1": 0.1388,
+      "2": 0.1036,
+      "3": 0.2123,
+      "4": 0.4089,
+      "5": 0.0605,
+      "6": 0.0122,
+      "7": 0.0235,
+      "8": 0.0543,
+      "9": 0.0087
+    },
+    "top_major": 4,
+    "clerical_over_agri": 33.52,
+    "near_zero": 71.6
+  },
+  "slow_gptoss": {
+    "isco_mean": 0.2813,
+    "corr_pearson": 0.9055,
+    "corr_spearman": 0.8814,
+    "pooled": 0.1807,
+    "pooled_wtd": 0.1954,
+    "country": {
+      "Nigeria 2023": 0.2057,
+      "Tanzania 2020": 0.1451,
+      "Uganda 2019": 0.1851
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.21,
+      "Tanzania 2020": 0.1404,
+      "Uganda 2019": 0.1914
+    },
+    "status": {
+      "agriculture": 0.1495,
+      "selfemp_nonag": 0.243,
+      "wage_nonag": 0.2188
+    },
+    "wage_minus_self": -0.0242,
+    "major": {
+      "1": 0.3048,
+      "2": 0.1989,
+      "3": 0.4082,
+      "4": 0.6501,
+      "5": 0.2837,
+      "6": 0.149,
+      "7": 0.1173,
+      "8": 0.2608,
+      "9": 0.1218
+    },
+    "top_major": 4,
+    "clerical_over_agri": 4.36,
+    "near_zero": 3.2
+  },
+  "rapid_qwen": {
+    "isco_mean": 0.3624,
+    "corr_pearson": 0.9225,
+    "corr_spearman": 0.9569,
+    "pooled": 0.1632,
+    "pooled_wtd": 0.1997,
+    "country": {
+      "Nigeria 2023": 0.2311,
+      "Tanzania 2020": 0.1057,
+      "Uganda 2019": 0.1357
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.2356,
+      "Tanzania 2020": 0.0957,
+      "Uganda 2019": 0.1557
+    },
+    "status": {
+      "agriculture": 0.0821,
+      "selfemp_nonag": 0.3246,
+      "wage_nonag": 0.2626
+    },
+    "wage_minus_self": -0.062,
+    "major": {
+      "1": 0.6749,
+      "2": 0.3375,
+      "3": 0.5206,
+      "4": 0.7836,
+      "5": 0.2915,
+      "6": 0.084,
+      "7": 0.1208,
+      "8": 0.2144,
+      "9": 0.0622
+    },
+    "top_major": 4,
+    "clerical_over_agri": 9.33,
+    "near_zero": 6.6
+  },
+  "rapid_gptoss": {
+    "isco_mean": 0.6015,
+    "corr_pearson": 0.7402,
+    "corr_spearman": 0.8343,
+    "pooled": 0.4473,
+    "pooled_wtd": 0.4894,
+    "country": {
+      "Nigeria 2023": 0.5261,
+      "Tanzania 2020": 0.3532,
+      "Uganda 2019": 0.4426
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.5326,
+      "Tanzania 2020": 0.3436,
+      "Uganda 2019": 0.459
+    },
+    "status": {
+      "agriculture": 0.3844,
+      "selfemp_nonag": 0.6024,
+      "wage_nonag": 0.4884
+    },
+    "wage_minus_self": -0.114,
+    "major": {
+      "1": 0.9173,
+      "2": 0.5915,
+      "3": 0.7431,
+      "4": 0.7898,
+      "5": 0.6051,
+      "6": 0.3868,
+      "7": 0.3138,
+      "8": 0.5415,
+      "9": 0.2987
+    },
+    "top_major": 1,
+    "clerical_over_agri": 2.04,
+    "near_zero": 0.1
+  },
+  "no_explicit_scenario_qwen": {
+    "isco_mean": 0.1892,
+    "corr_pearson": 0.9565,
+    "corr_spearman": 0.9588,
+    "pooled": 0.0479,
+    "pooled_wtd": 0.0613,
+    "country": {
+      "Nigeria 2023": 0.0712,
+      "Tanzania 2020": 0.0278,
+      "Uganda 2019": 0.0389
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.0737,
+      "Tanzania 2020": 0.0227,
+      "Uganda 2019": 0.0491
+    },
+    "status": {
+      "agriculture": 0.0135,
+      "selfemp_nonag": 0.0944,
+      "wage_nonag": 0.1167
+    },
+    "wage_minus_self": 0.0223,
+    "major": {
+      "1": 0.2029,
+      "2": 0.1493,
+      "3": 0.2958,
+      "4": 0.4735,
+      "5": 0.0842,
+      "6": 0.0145,
+      "7": 0.0389,
+      "8": 0.0737,
+      "9": 0.0112
+    },
+    "top_major": 4,
+    "clerical_over_agri": 32.66,
+    "near_zero": 67.4
+  },
+  "no_explicit_scenario_gptoss": {
+    "isco_mean": 0.1677,
+    "corr_pearson": 0.8544,
+    "corr_spearman": 0.804,
+    "pooled": 0.0863,
+    "pooled_wtd": 0.103,
+    "country": {
+      "Nigeria 2023": 0.1142,
+      "Tanzania 2020": 0.061,
+      "Uganda 2019": 0.0766
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.1185,
+      "Tanzania 2020": 0.0568,
+      "Uganda 2019": 0.0857
+    },
+    "status": {
+      "agriculture": 0.0569,
+      "selfemp_nonag": 0.1432,
+      "wage_nonag": 0.1241
+    },
+    "wage_minus_self": -0.0191,
+    "major": {
+      "1": 0.1763,
+      "2": 0.097,
+      "3": 0.2803,
+      "4": 0.4745,
+      "5": 0.1752,
+      "6": 0.0585,
+      "7": 0.0547,
+      "8": 0.1578,
+      "9": 0.037
+    },
+    "top_major": 4,
+    "clerical_over_agri": 8.11,
+    "near_zero": 58.5
+  },
+  "no_explicit_scenario_gpt4o": {
+    "isco_mean": 0.2283,
+    "corr_pearson": 0.8922,
+    "corr_spearman": 0.8667,
+    "pooled": 0.0956,
+    "pooled_wtd": 0.1171,
+    "country": {
+      "Nigeria 2023": 0.1316,
+      "Tanzania 2020": 0.065,
+      "Uganda 2019": 0.0812
+    },
+    "country_wtd": {
+      "Nigeria 2023": 0.1369,
+      "Tanzania 2020": 0.0597,
+      "Uganda 2019": 0.0928
+    },
+    "status": {
+      "agriculture": 0.0575,
+      "selfemp_nonag": 0.1665,
+      "wage_nonag": 0.1483
+    },
+    "wage_minus_self": -0.0182,
+    "major": {
+      "1": 0.2437,
+      "2": 0.1547,
+      "3": 0.3329,
+      "4": 0.5511,
+      "5": 0.1768,
+      "6": 0.0595,
+      "7": 0.0764,
+      "8": 0.1562,
+      "9": 0.0404
+    },
+    "top_major": 4,
+    "clerical_over_agri": 9.26,
+    "near_zero": 56.7
+  }
+}

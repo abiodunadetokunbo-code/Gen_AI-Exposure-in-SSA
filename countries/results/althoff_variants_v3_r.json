@@ -1,0 +1,73 @@
+{
+  "variants": {
+    "canonical_moderate_qwen": {
+      "wage_formal": 0.2133,
+      "wage_informal": 0.1039,
+      "formal_minus_informal": 0.1094,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "moderate_gptoss": {
+      "wage_formal": 0.3178,
+      "wage_informal": 0.244,
+      "formal_minus_informal": 0.0738,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "slow_qwen": {
+      "wage_formal": 0.1315,
+      "wage_informal": 0.0503,
+      "formal_minus_informal": 0.0812,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "slow_gptoss": {
+      "wage_formal": 0.2734,
+      "wage_informal": 0.179,
+      "formal_minus_informal": 0.0944,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "rapid_qwen": {
+      "wage_formal": 0.3521,
+      "wage_informal": 0.1971,
+      "formal_minus_informal": 0.155,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "rapid_gptoss": {
+      "wage_formal": 0.571,
+      "wage_informal": 0.4281,
+      "formal_minus_informal": 0.1429,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "no_explicit_scenario_qwen": {
+      "wage_formal": 0.1774,
+      "wage_informal": 0.0722,
+      "formal_minus_informal": 0.1052,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "no_explicit_scenario_gptoss": {
+      "wage_formal": 0.1626,
+      "wage_informal": 0.096,
+      "formal_minus_informal": 0.0666,
+      "n_formal": 1801,
+      "n_informal": 2466
+    },
+    "no_explicit_scenario_gpt4o": {
+      "wage_formal": 0.1978,
+      "wage_informal": 0.1121,
+      "formal_minus_informal": 0.0857,
+      "n_formal": 1801,
+      "n_informal": 2466
+    }
+  },
+  "n_wage": 4275,
+  "n_formal": 1801,
+  "n_informal": 2466,
+  "formal_minus_informal_min": 0.0666,
+  "formal_minus_informal_max": 0.155,
+  "any_sign_flip": false
+}

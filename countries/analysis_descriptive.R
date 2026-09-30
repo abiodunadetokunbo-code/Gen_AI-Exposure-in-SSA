@@ -1,7 +1,10 @@
 # Headline descriptive statistics for the SSA AI-exposure paper (R).
 # Independent re-implementation; writes results/desc_r.json for cross-check.
 suppressMessages({library(jsonlite)})
-P <- read.csv("harmonized_workers.csv", stringsAsFactors = FALSE)
+# NOTE (2026-09-20, plan step 12): reproduces the PRE-REVISION (v1) numbers and
+# is kept as the record of the first submission. Reads and writes archive_v1/,
+# so it cannot touch the live revision-2 files. Replaced by analysis_v2.R.
+P <- read.csv("archive_v1/harmonized_workers.csv", stringsAsFactors = FALSE)
 A <- P$auto_genai
 rnd <- function(x) round(as.numeric(x), 6)
 out <- list()
@@ -41,5 +44,5 @@ out$mean_female <- rnd(mean(ps$auto_genai[ps$sex == "female"]))
 x <- sort(A)
 out$top10pct_share_of_exposure <- rnd(sum(x[(floor(0.9 * length(x)) + 1):length(x)]) / sum(x))
 out$urban_minus_rural <- rnd(out$mean_urban - out$mean_rural)
-write_json(out, "results/desc_r.json", auto_unbox = TRUE, pretty = TRUE, digits = 6)
+write_json(out, "archive_v1/results/desc_r.json", auto_unbox = TRUE, pretty = TRUE, digits = 6)
 cat("R done. mean_auto=", out$mean_auto, " urban-rural=", out$urban_minus_rural, "\n")
